@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Landing Resiliente - Speezard 🦎⚡️
 
-First, run the development server:
+Este es el repositorio base para la landing de la Comunidad Resiliente y Speezard! 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Estaremos utilizando:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org/docs/getting-started) como framework de desarrollo.
+- [NextUI](https://nextui.org/) como librería de componentes compatibles con Next.js para acelerar el desarrollo.
+- [React.js](https://es.reactjs.org/docs/getting-started.html) como librería principal para el desarrollo de interfaces de usuario
+- [TypeScript](https://www.typescriptlang.org/) como lenguaje de programación. Es un JavaScript vitaminado ya que ofrece sintaxis de tipado con el objetivo de ver errores en tiempo de compilación, y no de ejecución.
+- [Prettier](https://prettier.io/) para incorporar reglas de sintaxis relacionadas con indentación, espacios, trailling commas, puntos y comas, etc.
+- [ESLint](https://eslint.org/) para arreglar problemas comunes con el código. Utilizaremos también `eslint-config-prettier` para armonizar las reglas de Prettier y ESLint y que no se generen conflictos.
+- [SASS](https://sass-lang.com/) como capa adicional a CSS para los estilos, ya que ofrece algunas funcionalidades extra.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Requisitos
+- [Node.js](https://nodejs.org/es/) versión 16 o superior
+- [NPM](https://www.npmjs.com/) versión 8 o superior
+- [Git](https://git-scm.com/) versión 2.38 o superior
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Algunos recursos de utilidad
+- [Coolors](https://coolors.co) para crear paletas de colores
+- [UIGradients](https://uigradients.com/#CrazyOrangeI) para crear gradientes
+- [MagicPattern](https://www.magicpattern.design) y [haikei](https://haikei.app) bibliotecas de patrones
+- [ManyPixels](https://www.manypixels.co/gallery) biblioteca de ilustraciones gratuitas
+- [GetWaves](https://getwaves.io) y [wweb.dev](https://wweb.dev/resources/css-separator-generator/) separadores de contenido CSS
+- [Grid Garden](https://codepip.com/games/grid-garden/) repaso de Grid
+- [Flexbox Froggy](https://codepip.com/games/flexbox-froggy/) repaso de Flexbox
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Instructivo para arrancar
+1. Primero que nada copiar la URL del repositorio `https://github.com/leonardoromero/landing-resiliente/`
+2. Abrir una terminal, ya sea:
+    a. Ir a [VS Code](https://code.visualstudio.com/) o el editor de código que prefieran y abrir la terminal allí
+    b. Abrir la terminal de su computadora
+3. Ubicarse en el directorio donde quieran clonar este repositorio, por ejemplo Documentos o el Escritorio con `cd documentos`
+4. Ingresar el comando `git clone https://github.com/leonardoromero/landing-resiliente/`
+5. Asegurarse de estar en el directorio del repositorio (por ejemplo Documentos/landing-resiliente) y correr el comando `npm install` o `yarn install` si utlilizan ese gestor de paquetes
+6. Correr `npm run start` para levantar el frontend
