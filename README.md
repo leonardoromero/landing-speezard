@@ -1,7 +1,6 @@
-
 # Landing Resiliente - Speezard 🦎⚡️
 
-Este es el repositorio base para la landing de la Comunidad Resiliente y Speezard! 
+Este es el repositorio base para la landing de la Comunidad Resiliente y Speezard!
 
 Estaremos utilizando:
 
@@ -14,11 +13,17 @@ Estaremos utilizando:
 - [SASS](https://sass-lang.com/) como capa adicional a CSS para los estilos, ya que ofrece algunas funcionalidades extra.
 
 ## Requisitos
+
 - [Node.js](https://nodejs.org/es/) versión 16 o superior
 - [NPM](https://www.npmjs.com/) versión 8 o superior
 - [Git](https://git-scm.com/) versión 2.38 o superior
 
+## Iconos Speezard
+
+- [logos de Speezard](https://drive.google.com/drive/folders/1rL8NMZxywlVoLvprlWquqLjqLK2dnZ0x)
+
 ### Algunos recursos de utilidad
+
 - [Coolors](https://coolors.co) para crear paletas de colores
 - [UIGradients](https://uigradients.com/#CrazyOrangeI) para crear gradientes
 - [MagicPattern](https://www.magicpattern.design) y [haikei](https://haikei.app) bibliotecas de patrones
@@ -28,10 +33,11 @@ Estaremos utilizando:
 - [Flexbox Froggy](https://codepip.com/games/flexbox-froggy/) repaso de Flexbox
 
 ### Instructivo para arrancar
+
 1. Primero que nada copiar la URL del repositorio `https://github.com/leonardoromero/landing-resiliente/`
 2. Abrir una terminal, ya sea:
-    a. Ir a [VS Code](https://code.visualstudio.com/) o el editor de código que prefieran y abrir la terminal allí
-    b. Abrir la terminal de su computadora
+   a. Ir a [VS Code](https://code.visualstudio.com/) o el editor de código que prefieran y abrir la terminal allí
+   b. Abrir la terminal de su computadora
 3. Ubicarse en el directorio donde quieran clonar este repositorio, por ejemplo Documentos o el Escritorio con `cd documentos`
 4. Ingresar el comando `git clone https://github.com/leonardoromero/landing-resiliente/`
 5. Asegurarse de estar en el directorio del repositorio (por ejemplo Documentos/landing-resiliente) y correr el comando `npm install` o `yarn install` si utlilizan ese gestor de paquetes
