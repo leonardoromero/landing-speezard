@@ -41,4 +41,5 @@ Estaremos utilizando:
 3. Ubicarse en el directorio donde quieran clonar este repositorio, por ejemplo Documentos o el Escritorio con `cd documentos`
 4. Ingresar el comando `git clone https://github.com/leonardoromero/landing-resiliente/`
 5. Asegurarse de estar en el directorio del repositorio (por ejemplo Documentos/landing-resiliente) y correr el comando `npm install` o `yarn install` si utlilizan ese gestor de paquetes
+
 6. Correr `npm run start` para levantar el frontend
