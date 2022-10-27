@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import wordings from '../wordings'
+import wordings from '../../../utils/wordings'
 const {
 	community: { heading2, span, text },
 } = wordings

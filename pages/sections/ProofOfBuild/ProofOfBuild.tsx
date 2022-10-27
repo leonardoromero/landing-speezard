@@ -1,4 +1,4 @@
-import wordings from '../wordings'
+import wordings from '../../../utils/wordings'
 const {
 	proof_of_build: { span, heading2, texts, bullets },
 } = wordings
@@ -16,10 +16,8 @@ const ProofOfBuild = () => {
 			</div>
 			<div className="proofofbuild__left">
 				<h2 className="proofofbuild__left-title">
-					<span>
-						{span}
-					</span>
-						{heading2}
+					<span>{span}</span>
+					{heading2}
 				</h2>
 				<div className="proofofbuild__left__texts">
 					{texts.map(text => (
