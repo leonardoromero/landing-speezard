@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import wordings from '../../../components/wordings'
+import wordings from '../wordings'
 const {
 	speezard: { heading2, span, alt, items },
 } = wordings

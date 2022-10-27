@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import wordings from '../../../components/wordings'
+import wordings from '../wordings'
 const {
 	hero: { heading1, span, text, footer },
 } = wordings

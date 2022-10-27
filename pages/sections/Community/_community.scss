@@ -12,11 +12,12 @@
 	}
 
 	&__content {
+		display: grid;
+		align-content: center;
+		justify-items: right;
+		text-align: right;
 		@media (min-width: 900px) {
 			width: 50%;
-			display: grid;
-			align-content: center;
-			justify-items: right;
 		}
 
 		&-title {

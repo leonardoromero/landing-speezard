@@ -24,6 +24,8 @@ Estaremos utilizando:
 
 ### Algunos recursos de utilidad
 
+#### Recursos desarrollo web
+
 - [Coolors](https://coolors.co) para crear paletas de colores
 - [UIGradients](https://uigradients.com/#CrazyOrangeI) para crear gradientes
 - [MagicPattern](https://www.magicpattern.design) y [haikei](https://haikei.app) bibliotecas de patrones
@@ -31,6 +33,11 @@ Estaremos utilizando:
 - [GetWaves](https://getwaves.io) y [wweb.dev](https://wweb.dev/resources/css-separator-generator/) separadores de contenido CSS
 - [Grid Garden](https://codepip.com/games/grid-garden/) repaso de Grid
 - [Flexbox Froggy](https://codepip.com/games/flexbox-froggy/) repaso de Flexbox
+
+#### Recursos comunidad
+
+- [Logos de Speezard](https://drive.google.com/drive/folders/1rL8NMZxywlVoLvprlWquqLjqLK2dnZ0x)
+- [Logos de Resiliente](https://drive.google.com/drive/folders/1zGp3rZXXVtsA0tMpxNio2xhs0J4Skfjk?usp=sharing)
 
 ### Instructivo para arrancar
 
