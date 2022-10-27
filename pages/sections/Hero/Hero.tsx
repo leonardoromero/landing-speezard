@@ -19,7 +19,7 @@ const Hero = () => {
 					src="/logos/logo-resiliente-blanco.png"
 					alt="logo comunidad resiliente"
 					width={250}
-					height={90}
+					height={45}
 				/>
 			</div>
 		</section>
