@@ -5,10 +5,9 @@ import Image from 'next/image'
 import { Slant as Hamburger } from 'hamburger-react'
 import { Link as ScrollLink } from 'react-scroll'
 
-interface Size {
-	width: number | undefined
-	height: number | undefined
-}
+import { Size } from '../types'
+import wordings from '../wordings'
+const { navbar } = wordings
 
 const Navbar = () => {
 	const size: Size = useWindowSize()
@@ -45,7 +44,11 @@ const Navbar = () => {
 			<div className="navbar">
 				<div className="navbar__logo">
 					<ScrollLink smooth={true} offset={-50} duration={500} to="hero">
-						<Image src="/logos/logo-speezard-verde.png" alt="logo speezard" layout="fill" />
+						<Image
+							src="/logos/logo-speezard-verde.png"
+							alt="logo speezard"
+							layout="fill"
+						/>
 					</ScrollLink>
 				</div>
 				<div className="navbar__links--desktop">
@@ -56,38 +59,17 @@ const Navbar = () => {
 						/>
 					) : (
 						<div className="navbar__links--desktop">
-							<ScrollLink
-								smooth={true}
-								offset={-50}
-								duration={500}
-								to="speezard"
-							>
-								Speezard
-							</ScrollLink>
-							<ScrollLink
-								smooth={true}
-								offset={-50}
-								duration={500}
-								to="community"
-							>
-								Comunidad
-							</ScrollLink>
-							<ScrollLink
-								smooth={true}
-								offset={-50}
-								duration={500}
-								to="testimonies"
-							>
-								Testimonios
-							</ScrollLink>
-							<ScrollLink
-								smooth={true}
-								offset={-50}
-								duration={500}
-								to="mentors"
-							>
-								Mentores
-							</ScrollLink>
+							{navbar.map(link => (
+								<ScrollLink
+									smooth={true}
+									offset={-50}
+									duration={500}
+									to={link.href}
+									key={link.href}
+								>
+									{link.text}
+								</ScrollLink>
+							))}
 							<ScrollLink
 								smooth={true}
 								offset={-50}
@@ -102,46 +84,17 @@ const Navbar = () => {
 			</div>
 			{isMobileNavbarVisible && (
 				<div className="navbar__links--mobile">
-					<ScrollLink
-						smooth={true}
-						offset={-50}
-						duration={500}
-						to="speezard"
-						onClick={() => setIsMobileNavbarVisible(false)}
-					>
-						Speezard
-					</ScrollLink>
-
-					<ScrollLink
-						smooth={true}
-						offset={-50}
-						duration={500}
-						to="community"
-						onClick={() => setIsMobileNavbarVisible(false)}
-					>
-						Comunidad
-					</ScrollLink>
-
-					<ScrollLink
-						smooth={true}
-						offset={-50}
-						duration={500}
-						to="testimonies"
-						onClick={() => setIsMobileNavbarVisible(false)}
-					>
-						Testimonios
-					</ScrollLink>
-
-					<ScrollLink
-						smooth={true}
-						offset={-50}
-						duration={500}
-						to="mentors"
-						onClick={() => setIsMobileNavbarVisible(false)}
-					>
-						Mentores
-					</ScrollLink>
-
+					{navbar.map(link => (
+						<ScrollLink
+							smooth={true}
+							offset={-50}
+							duration={500}
+							to={link.href}
+							key={link.href}
+						>
+							{link.text}
+						</ScrollLink>
+					))}
 					<ScrollLink
 						smooth={true}
 						offset={-50}

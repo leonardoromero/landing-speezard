@@ -1,23 +1,24 @@
 import Image from 'next/image'
 
+import wordings from '../../../components/wordings'
+const {
+	hero: { heading1, span, text, footer },
+} = wordings
+
 const Hero = () => {
 	return (
 		<section id="hero" className="hero">
 			<div className="hero__texts">
 				<h1 className="hero__texts-title">
-					Hacemos crecer tu start up Web3 en <span>comunidad.</span>
+					{heading1} <span>{span}</span>
 				</h1>
-				<p className="hero__texts-text">
-					Lanzamos el primer programa pre-acelerador de startups Web3 que pone
-					una comunidad mínima viable al servicio de nuevos emprendimientos en
-					el ecosistema.
-				</p>
+				<p className="hero__texts-text">{text}</p>
 			</div>
 			<div className="hero__footer">
-				<p>Powered by</p>
+				<p>{footer.text}</p>
 				<Image
 					src="/logos/logo-resiliente-blanco.png"
-					alt="logo comunidad resiliente"
+					alt={footer.alt}
 					width={250}
 					height={45}
 				/>

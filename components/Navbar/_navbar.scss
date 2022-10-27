@@ -31,8 +31,12 @@
 			width: 100%;
 
 			a {
-				margin-right: 25px;
+				padding-right: 25px;
 			}
+			.cta {
+				margin-right: -25px;
+			}
+			
 		}
 
 		&--desktop {
@@ -46,6 +50,9 @@
 				cursor: pointer;
 				&:hover {
 					color: $accent;
+				}
+				&:last-child {
+					color: $base;
 				}
 			}
 		}
