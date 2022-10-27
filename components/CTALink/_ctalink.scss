@@ -1,0 +1,19 @@
+.cta {
+	all: unset;
+	background-color: $accent;
+	color: $base;
+	padding: 0 12px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	&:hover {
+		filter: brightness(0.9);
+	}
+	&:active {
+		filter: brightness(0.8);
+	}
+
+	@media (min-width: 900px) {
+		padding: 12px 24px;
+	}
+}

@@ -32,14 +32,6 @@
 			a {
 				margin-right: 25px;
 			}
-
-			.cta {
-				all: unset;
-				background-color: $accent;
-				color: $base;
-				padding: 0 12px;
-				border-radius: 10px;
-			}
 		}
 
 		&--desktop {
@@ -49,13 +41,11 @@
 			gap: 2.5rem;
 			font-size: 1.6rem;
 
-			.cta {
-				all: unset;
-				background-color: $accent;
-				color: $base;
-				padding: 12px 24px;
-				border-radius: 10px;
-				font-size: 1.8rem;
+			a {
+				cursor: pointer;
+				&:hover {
+					color: $accent;
+				}
 			}
 		}
 	}
