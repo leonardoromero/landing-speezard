@@ -1,3 +1,168 @@
-// COLORS
-$base: #0F1118;
-$accent: #1ED760;
+// ====================
+//        COLORS
+// ====================
+$base: #0f1118;
+$accent: #1ed760;
+
+// ====================
+//      HEADINGS
+// ====================
+.heading {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	letter-spacing: -0.02em;
+}
+//       Desktop
+.desktop-heading-1 {
+	font-weight: 400;
+	font-size: 7.2rem;
+	line-height: 8.4rem;
+}
+.desktop-heading-2 {
+	font-size: 4.8rem;
+	line-height: 6.5rem;
+}
+.desktop-heading-3 {
+	font-size: 32px;
+	line-height: 40px;
+}
+.desktop-heading-4 {
+	font-size: 28px;
+	line-height: 36px;
+}
+.desktop-heading-5 {
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 3.6rem;
+}
+.desktop-heading-6 {
+	font-size: 20px;
+	line-height: 28px;
+}
+//       Mobile
+.mobile-heading-1 {
+	font-weight: 400;
+	font-size: 5rem;
+	line-height: 6rem;
+}
+.mobile-heading-2 {
+	font-weight: 600;
+	font-size: 4rem;
+	line-height: 5rem;
+}
+.mobile-heading-3 {
+	font-size: 28px;
+	line-height: 36px;
+}
+.mobile-heading-4 {
+	font-size: 24px;
+	line-height: 32px;
+}
+.mobile-heading-5 {
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+.mobile-heading-6 {
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+}
+
+// ====================
+//      PARAGRAPHS
+// ====================
+.paragraph {
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+	letter-spacing: -0.02em;
+}
+//       Desktop
+.desktop-paragraph-lg {
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+.desktop-paragraph-md {
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+.desktop-paragraph-sm {
+	font-size: 14px;
+	line-height: 20px;
+}
+.desktop-paragraph-xs {
+	font-size: 12px;
+	line-height: 20px;
+}
+.desktop-paragraph-overline {
+	font-size: 14px;
+	line-height: 20px;
+}
+.desktop-paragraph-overline-sm {
+	font-size: 12px;
+	line-height: 20px;
+}
+//       Mobile
+.mobile-paragraph-lg {
+	font-weight: 400;
+
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+.mobile-paragraph-md {
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+}
+.mobile-paragraph-sm {
+	font-weight: 300;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+.mobile-paragraph-xs {
+	font-size: 12px;
+	line-height: 20px;
+}
+.mobile-paragraph-overline {
+	font-size: 14px;
+	line-height: 20px;
+}
+.mobile-paragraph-overline-sm {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.accent-word {
+	background-color: $accent;
+	background-image: linear-gradient(
+		225deg,
+		hsl(141deg 76% 48%) 23%,
+		hsl(151deg 100% 40%) 53%,
+		hsl(156deg 100% 39%) 66%,
+		hsl(160deg 100% 37%) 75%,
+		hsl(164deg 100% 35%) 81%,
+		hsl(169deg 100% 33%) 86%,
+		hsl(173deg 100% 31%) 89%,
+		hsl(177deg 100% 29%) 92%,
+		hsl(182deg 100% 28%) 95%,
+		hsl(185deg 100% 27%) 97%,
+		hsl(188deg 100% 27%) 98%,
+		hsl(191deg 100% 26%) 99%,
+		hsl(193deg 100% 24%) 100%,
+		hsl(195deg 100% 23%) 101%,
+		hsl(197deg 100% 21%) 101%,
+		hsl(198deg 100% 19%) 102%,
+		hsl(199deg 100% 17%) 102%,
+		hsl(200deg 97% 14%) 102%,
+		hsl(206deg 62% 15%) 101%,
+		hsl(212deg 44% 13%) 101%,
+		hsl(218deg 32% 11%) 101%,
+		hsl(227deg 23% 8%) 100%
+	);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+}

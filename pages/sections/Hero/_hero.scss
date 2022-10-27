@@ -1,5 +1,6 @@
 .hero {
 	margin: 75px auto;
+	margin-bottom: 32px;
 	width: 90%;
 	height: 90vh;
 	display: flex;
@@ -15,61 +16,28 @@
 		margin: 0 auto;
 
 		&-title {
-			font-family: 'Poppins';
-			font-weight: 400;
-			font-size: 5rem;
-			line-height: 116%;
-			margin: 0;
+			@extend .heading;
+			@extend .mobile-heading-1;
 
 			@media (min-width: 724px) {
 				font-size: 7.2rem;
+				line-height: 8.4rem;
 			}
 
 			span {
-				background-color: $accent;
-				background-image: linear-gradient(
-					225deg,
-					hsl(141deg 76% 48%) 23%,
-					hsl(151deg 100% 40%) 53%,
-					hsl(156deg 100% 39%) 66%,
-					hsl(160deg 100% 37%) 75%,
-					hsl(164deg 100% 35%) 81%,
-					hsl(169deg 100% 33%) 86%,
-					hsl(173deg 100% 31%) 89%,
-					hsl(177deg 100% 29%) 92%,
-					hsl(182deg 100% 28%) 95%,
-					hsl(185deg 100% 27%) 97%,
-					hsl(188deg 100% 27%) 98%,
-					hsl(191deg 100% 26%) 99%,
-					hsl(193deg 100% 24%) 100%,
-					hsl(195deg 100% 23%) 101%,
-					hsl(197deg 100% 21%) 101%,
-					hsl(198deg 100% 19%) 102%,
-					hsl(199deg 100% 17%) 102%,
-					hsl(200deg 97% 14%) 102%,
-					hsl(206deg 62% 15%) 101%,
-					hsl(212deg 44% 13%) 101%,
-					hsl(218deg 32% 11%) 101%,
-					hsl(227deg 23% 8%) 100%
-				);
-				background-size: 100%;
-				background-clip: text;
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				-moz-background-clip: text;
-				-moz-text-fill-color: transparent;
+				@extend .accent-word;
 				font-weight: 700;
 			}
 		}
 
 		&-text {
-			font-weight: 400;
-			font-size: 1.6rem;
-			line-height: 180%;
+			@extend .paragraph;
+			@extend .mobile-paragraph-md;
 			margin: 3.2rem 0 0;
 
 			@media (min-width: 724px) {
 				font-size: 2rem;
+				line-height: 3rem;
 			}
 		}
 	}
@@ -79,8 +47,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		font-size: 1.4rem;
-		font-weight: 300;
+		@extend .paragraph;
+		@extend .mobile-paragraph-sm;
 		border-bottom: 1px solid gray;
 
 		@media (min-width: 724px) {
