@@ -1,14 +1,15 @@
 @import './variables';
 @import '../components/Navbar/navbar';
-@import '../components/CTALink/ctalink';
+@import '../pages/sections/Hero/hero';
 
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: 'Inter', sans-serif;
 	background-color: $base;
+	color: white;
+	font-size: 62.5%;
 }
 
 a {

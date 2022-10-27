@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 
-import Link from 'next/link'
 import Image from 'next/image'
 
 import { Slant as Hamburger } from 'hamburger-react'
@@ -46,7 +45,7 @@ const Navbar = () => {
 			<div className="navbar">
 				<div className="navbar__logo">
 					<ScrollLink smooth={true} offset={-50} duration={500} to="hero">
-						<Image src="/logo-verde.png" alt="logo speezard" layout="fill" />
+						<Image src="/logos/logo-speezard-verde.png" alt="logo speezard" layout="fill" />
 					</ScrollLink>
 				</div>
 				<div className="navbar__links--desktop">
