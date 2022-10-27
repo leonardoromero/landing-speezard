@@ -7,15 +7,16 @@
 
 	@media (min-width: 900px) {
 		flex-direction: row-reverse;
-		gap:64px;
+		justify-content: space-between;
+		gap: 64px;
 	}
 
 	&__right {
 		border-top: 1px solid gray;
-		padding-top:2rem;
-		@media(min-width:900px){
-			width:50%;
-			border:none;
+		padding-top: 2rem;
+		@media (min-width: 900px) {
+			width: 40%;
+			border: none;
 			text-align: right;
 		}
 
@@ -23,26 +24,40 @@
 			h5 {
 				@extend .heading;
 				@extend .mobile-heading-5;
+				@media (min-width: 724px) {
+					font-weight: 700;
+					font-size: 2rem;
+					line-height: 3.6rem;
+				}
 			}
 			p {
 				@extend .paragraph;
 				@extend .mobile-paragraph-md;
 				margin: 12px 0 24px;
+				@media (min-width: 724px) {
+					font-size: 1.6rem;
+					line-height: 2.4rem;
+				}
 			}
 		}
 	}
 
 	&__left {
-		@media(min-width:900px){
-			width:50%;
-			display:flex;
+		@media (min-width: 900px) {
+			width: 40%;
+			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			gap: 16px;
 		}
 
 		&-title {
 			@extend .heading;
 			@extend .mobile-heading-2;
+			@media (min-width: 724px) {
+				font-size: 4.8rem;
+				line-height: 6.5rem;
+			}
 			span {
 				@extend .accent-word;
 			}
@@ -52,6 +67,10 @@
 			@extend .paragraph;
 			@extend .mobile-paragraph-md;
 			margin-bottom: 5rem;
+			@media (min-width: 724px) {
+				font-size: 1.8rem;
+				line-height: 2.8rem;
+			}
 		}
 	}
 }
