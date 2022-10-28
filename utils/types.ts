@@ -32,10 +32,31 @@ export type Wordings = {
 		]
 		bullets: Item[]
 	}
+	projects: {
+		heading2: string
+		span: string
+		projects: Project[]
+	}
 }
 
 type Item = {
 	id: number
 	heading5: string
 	text: string
+}
+
+type Link = {
+	id: number | string
+	icon: string
+	text: string
+	href: string
+}
+
+export type Project = {
+	id: number
+	img: string
+	alt: string
+	heading6: string
+	description: string
+	links: Link[]
 }

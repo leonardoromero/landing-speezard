@@ -75,6 +75,117 @@ const wordings: Wordings = {
 			},
 		],
 	},
+	projects: {
+		heading2: 'que nos acompañan.',
+		span: ' proyectos ',
+		projects: [
+			{
+				id: 1,
+				img: 'boost',
+				alt: 'logo de boost',
+				heading6: 'Boost',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@boost',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 2,
+				img: 'cracks',
+				alt: 'logo de cracks',
+				heading6: 'Cracks',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@cracks',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 3,
+				img: 'knoly',
+				alt: 'logo de knoly',
+				heading6: 'Knoly',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@knoly',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 4,
+				img: 'rebrick',
+				alt: 'logo de rebrick',
+				heading6: 'rebrick',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@rebrick',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 5,
+				img: 'crypstation',
+				alt: 'logo de crypstation',
+				heading6: 'crypstation',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@crypstation',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 6,
+				img: 'strigo',
+				alt: 'logo de strigo',
+				heading6: 'Strigo',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@strigo',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 7,
+				img: 'vean',
+				alt: 'logo de vean',
+				heading6: 'Vean',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@vean',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+		],
+	},
 }
 
 export default wordings
