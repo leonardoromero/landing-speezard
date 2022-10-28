@@ -1,0 +1,36 @@
+.testimonial-card {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 32px;
+
+	&__text {
+		@extend .paragraph;
+		@extend .mobile-paragraph-md;
+		font-weight: 300;
+		font-style: italic;
+		@media (min-width: 724px) {
+			font-size: 1.6rem;
+			line-height: 2.6rem;
+		}
+	}
+
+	&__person {
+		.icon {
+			filter: invert(1);
+		}
+
+		&-title {
+			@extend .heading;
+			@extend .mobile-heading-6;
+			margin: 16px 0 4px;
+		}
+
+		&-description {
+			@extend .paragraph;
+			@extend .mobile-paragraph-sm;
+		}
+	}
+}

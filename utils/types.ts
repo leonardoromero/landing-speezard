@@ -38,6 +38,10 @@ export type Wordings = {
 		projects: Project[]
 	}
 	stats: Stat[]
+	testimonials: {
+		heading2: string
+		testimonials: Testimonial[]
+	}
 }
 
 type Item = {
@@ -56,6 +60,17 @@ type Link = {
 type Stat = {
 	number: number
 	text: string
+}
+
+type Testimonial = {
+	id: number
+	text: string
+	person: {
+		img?: string
+		alt?: string
+		name: string
+		description: string
+	}
 }
 
 export type Project = {

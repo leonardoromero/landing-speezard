@@ -204,6 +204,38 @@ const wordings: Wordings = {
 			text: 'Mentores',
 		},
 	],
+	testimonials: {
+		heading2: 'Testimonios',
+		testimonials: [
+			{
+				// Agregar foto de perfil en local
+				id: 1,
+				text: 'Molestie ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit amet. Faucibus interdum posuere lorem ipsum dolor adipiscing tristique risus nec feugiat in fermentum posuere urna. Neque laoreet suspendisse interdum consectetur libero mauris massa vitae tortor condimentum.',
+				person: {
+					name: 'Juan Pérez',
+					description: 'Persona 1',
+				},
+			},
+			{
+				// Agregar foto de perfil en local
+				id: 2,
+				text: 'Molestie ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit amet. Faucibus interdum posuere lorem ipsum dolor adipiscing tristique risus nec feugiat in fermentum posuere urna. Neque laoreet suspendisse interdum consectetur libero mauris massa vitae tortor condimentum.',
+				person: {
+					name: 'Lola Lolita',
+					description: 'Persona 2',
+				},
+			},
+			{
+				// Agregar foto de perfil en local
+				id: 3,
+				text: 'Molestie ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit amet. Faucibus interdum posuere lorem ipsum dolor adipiscing tristique risus nec feugiat in fermentum posuere urna. Neque laoreet suspendisse interdum consectetur libero mauris massa vitae tortor condimentum.',
+				person: {
+					name: 'Vitalik Buterin',
+					description: 'Persona 3',
+				},
+			},
+		],
+	},
 }
 
 export default wordings

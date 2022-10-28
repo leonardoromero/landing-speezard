@@ -8,6 +8,7 @@
 	@media (min-width: 900px) {
 		flex-direction: row-reverse;
 		justify-content: space-between;
+		align-items: center;
 		gap: 64px;
 	}
 
@@ -48,6 +49,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			align-items: center;
 			gap: 16px;
 		}
 
@@ -66,7 +68,6 @@
 		&__texts {
 			@extend .paragraph;
 			@extend .mobile-paragraph-md;
-			margin-bottom: 5rem;
 			@media (min-width: 724px) {
 				font-size: 1.8rem;
 				line-height: 2.8rem;
