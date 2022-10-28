@@ -37,6 +37,7 @@ export type Wordings = {
 		span: string
 		projects: Project[]
 	}
+	stats: Stat[]
 }
 
 type Item = {
@@ -50,6 +51,11 @@ type Link = {
 	icon: string
 	text: string
 	href: string
+}
+
+type Stat = {
+	number: number
+	text: string
 }
 
 export type Project = {

@@ -186,6 +186,24 @@ const wordings: Wordings = {
 			},
 		],
 	},
+	stats: [
+		{
+			number: 7,
+			text: 'Start-ups',
+		},
+		{
+			number: 42,
+			text: 'Emprendedores',
+		},
+		{
+			number: 18,
+			text: 'Mentores',
+		},
+		{
+			number: 24,
+			text: 'Mentores',
+		},
+	],
 }
 
 export default wordings

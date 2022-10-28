@@ -5,6 +5,7 @@ import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import ProofOfBuild from './sections/ProofOfBuild'
 import Speezard from './sections/Speezard'
+import Stats from './sections/Stats'
 
 const Home: NextPage = () => {
 	return (
@@ -14,7 +15,8 @@ const Home: NextPage = () => {
 			<Speezard />
 			<Community />
 			<ProofOfBuild />
-			<Projects/>
+			<Projects />
+			<Stats />
 		</div>
 	)
 }
