@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import wordings from '../../../utils/wordings'
 const {
@@ -16,12 +17,14 @@ const Hero = () => {
 			</div>
 			<div className="hero__footer">
 				<p>{footer.text}</p>
-				<Image
-					src="/logos/logo-resiliente-blanco.png"
-					alt={footer.alt}
-					width={250}
-					height={45}
-				/>
+				<Link href="https://discord.com/invite/zjt9Up3JWp">
+					<Image
+						src="/logos/logo-resiliente-blanco.png"
+						alt={footer.alt}
+						width={250}
+						height={45}
+					/>
+				</Link>
 			</div>
 		</section>
 	)
