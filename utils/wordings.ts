@@ -236,6 +236,118 @@ const wordings: Wordings = {
 			},
 		],
 	},
+	mentors: {
+		heading2: 'que nos guían.',
+		span: 'mentores',
+		text: 'Los mentores son las personas especialistas en una materia que tienen el desafío de hacer crecer a los proyectos, resaltando sus puntos fuertes y  marcando las áreas de mejora para llevarlos a otro nivel.',
+		profiles: [
+			{
+				id: 1,
+				img: 'image1',
+				alt: 'imagen de Vitalik Buterin',
+				heading6: 'Vitalik Buterin',
+				description: 'Creador de Ethereum',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@VitalikButerin',
+						href: 'https://twitter.com/VitalikButerin',
+					},
+				],
+			},
+			{
+				id: 2,
+				img: 'image2',
+				alt: 'Imagen de Elon Musk',
+				heading6: 'Elon Musk',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@ElonMusk',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 3,
+				img: 'image3',
+				alt: 'Imagen de Santi Siri',
+				heading6: 'Santi Siri',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@SantiSiri',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 4,
+				img: 'image4',
+				alt: 'Imagen de Satoshi Nakamoto',
+				heading6: 'Satoshi',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@ImNotSatoshi',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 5,
+				img: 'image5',
+				alt: 'imagen de Gavin Wood',
+				heading6: 'Gavin Wood',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@GavinWood',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 6,
+				img: 'image6',
+				alt: 'imagen de Charles Hoskinson',
+				heading6: 'Charles',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@CarlitosHoskinson',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+			{
+				id: 7,
+				img: 'image7',
+				alt: 'imagen de Toni Stark',
+				heading6: 'Toni Stark',
+				description: 'Dummy description',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@ToniStark',
+						href: 'https://www.twitter.com',
+					},
+				],
+			},
+		]
+	}
 }
 
 export default wordings
