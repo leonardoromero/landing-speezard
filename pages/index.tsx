@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Community from './sections/Community'
 import Hero from './sections/Hero'
@@ -22,6 +23,8 @@ const Home: NextPage = () => {
 			<Stats />
 			<Testimonials/>
 			<Mentors />
+			<Testimonials />
+			<Footer />
 		</div>
 	)
 }

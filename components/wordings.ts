@@ -11,7 +11,7 @@ const wordings: Wordings = {
 			text: 'Comunidad',
 		},
 		{
-			href: 'testimonies',
+			href: 'testimonials',
 			text: 'Testimonios',
 		},
 		{
@@ -19,6 +19,100 @@ const wordings: Wordings = {
 			text: 'Mentores',
 		},
 	],
+	footer: {
+		logo: 'logos/logo-resiliente-blanco.png',
+		alt: 'logo resiliente blanco',
+		text: 'Co-construyendo la Web 3.0',
+		links: {
+			col1: [
+				{
+					id: 1,
+					external: false,
+					href: 'community',
+					text: 'Comunidad',
+				},
+				{
+					id: 2,
+					external: true,
+					href: '/resiliente',
+					text: 'Resiliente',
+				},
+				{
+					id: 3,
+					external: true,
+					href: '/comunidad-mínima-viable',
+					text: 'Comunidad Mínima Viable',
+				},
+				{
+					id: 4,
+					external: false,
+					href: 'proof-of-build',
+					text: 'Builders',
+				},
+			],
+			col2: [
+				{
+					id: 1,
+					external: false,
+					href: 'speezard',
+					text: 'Programa',
+				},
+				{
+					id: 2,
+					external: true,
+					href: '/contenido',
+					text: 'Contenido',
+				},
+				{
+					id: 3,
+					external: false,
+					href: 'mentors',
+					text: 'Mentores',
+				},
+				{
+					id: 4,
+					external: true,
+					href: '/proof-of-build',
+					text: 'Proof of Build',
+				},
+				{
+					id: 5,
+					external: false,
+					href: 'testimonials',
+					text: 'Testimonios',
+				},
+			],
+			col3: [
+				{
+					id: 1,
+					external: false,
+					href: 'contact',
+					text: 'Ser Parte',
+				},
+			],
+		},
+		bottom: {
+			text: '2022 @ Speezard by ',
+			span: 'Resiliente',
+			social: [
+				{
+					id: 1,
+					icon: 'twitter',
+					href: 'https://www.twitter.com/speezard_web3',
+				},
+				{
+					id: 2,
+					icon: 'discord',
+					href: 'https://discord.gg/zjt9Up3JWp',
+				},
+				{
+					id: 3,
+					icon: 'linkedin',
+					href: 'https://www.linkedin.com/company/speezard-web3/about/',
+				},
+			],
+		},
+	},
 }
 
 export default wordings

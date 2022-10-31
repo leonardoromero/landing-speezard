@@ -1,5 +1,4 @@
-import { Project } from '../utils/types'
-import { Profile } from '../utils/types'
+import { Project, Profile, Link } from '../utils/types'
 
 export type CTALinkProps = Link
 export type ProjectCardProps = Project
@@ -11,17 +10,28 @@ export type TestimonialCardProps = {
 		description: string
 	}
 }
+export type FooterLinkProps = Link
 
 export type Wordings = {
 	navbar: Link[]
+	footer: {
+		logo: string
+		alt: string
+		text: string
+		links: {
+			col1: Link[]
+			col2: Link[]
+			col3: Link[]
+		}
+		bottom: {
+			text: string
+			span: string
+			social: Link[]
+		}
+	}
 }
 
 export type Size = {
 	width: number | undefined
 	height: number | undefined
-}
-
-type Link = {
-	href: string
-	text: string
 }

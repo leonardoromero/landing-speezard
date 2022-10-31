@@ -51,6 +51,13 @@
 		@extend .mobile-paragraph-sm;
 		border-bottom: 1px solid gray;
 
+		img {
+			cursor: pointer;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+
 		@media (min-width: 724px) {
 			font-size: 1.8rem;
 		}
