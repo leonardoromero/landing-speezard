@@ -5,7 +5,7 @@ const {
 
 const ProofOfBuild = () => {
 	return (
-		<section className="proofofbuild" id="proofofbuild">
+		<section className="proofofbuild" id="proof-of-build">
 			<div className="proofofbuild__right">
 				{bullets.map(bullet => (
 					<div className="proofofbuild__right__bullet" key={bullet.id}>

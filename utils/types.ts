@@ -50,10 +50,11 @@ type Item = {
 	text: string
 }
 
-type Link = {
-	id: number | string
-	icon: string
-	text: string
+export type Link = {
+	id?: number | string
+	external?: boolean
+	icon?: string
+	text?: string
 	href: string
 }
 

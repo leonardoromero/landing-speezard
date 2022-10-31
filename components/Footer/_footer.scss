@@ -1,0 +1,118 @@
+.footer {
+	width: 90%;
+	max-width: 1440px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	margin: 64px auto 0;
+	padding: 32px 0;
+	text-align: center;
+
+	&__top {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		@media (min-width: 900px) {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&-left {
+			@extend .paragraph;
+			@extend .mobile-paragraph-sm;
+			@media (min-width: 900px) {
+				font-size: 1.6rem;
+				line-height: 2.6rem;
+			}
+		}
+
+		&-right {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+			@extend .paragraph;
+			@extend .mobile-paragraph-lg;
+			@media (min-width: 900px) {
+				flex-direction: row;
+				align-items: flex-start;
+				font-size: 14px;
+				line-height: 20px;
+			}
+
+			&-col {
+				display: flex;
+				flex-direction: column;
+				line-height: 3.5rem;
+				width: 33%;
+
+				a {
+					cursor: pointer;
+					&:hover {
+						color: $accent;
+					}
+					&:first-child {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+
+	&__bottom {
+		@extend .paragraph;
+		@extend .mobile-paragraph-sm;
+		border-top: 1px solid gray;
+		padding: 20px 0;
+		margin-top: 40px;
+		@media (min-width: 900px) {
+			display: flex;
+			justify-content: space-between;
+			font-size: 14px;
+			line-height: 20px;
+		}
+
+		span {
+			font-weight: bold;
+			@extend .accent-word;
+			background-image: linear-gradient(
+				45deg,
+				hsl(0deg 100% 42%) 0%,
+				hsl(10deg 100% 43%) 7%,
+				hsl(15deg 100% 44%) 16%,
+				hsl(19deg 100% 45%) 25%,
+				hsl(23deg 100% 46%) 35%,
+				hsl(26deg 100% 47%) 45%,
+				hsl(28deg 100% 47%) 54%,
+				hsl(31deg 100% 48%) 62%,
+				hsl(34deg 100% 49%) 70%,
+				hsl(36deg 100% 49%) 76%,
+				hsl(39deg 100% 49%) 82%,
+				hsl(42deg 100% 50%) 86%,
+				hsl(44deg 100% 50%) 90%,
+				hsl(47deg 100% 50%) 94%,
+				hsl(50deg 100% 50%) 96%,
+				hsl(52deg 100% 50%) 98%,
+				hsl(55deg 100% 50%) 100%
+			);
+		}
+
+		&-social {
+			display: flex;
+			justify-content: center;
+			gap: 24px;
+			@media (min-width: 900px) {
+				gap: 40px;
+			}
+
+			img {
+				filter: invert(1);
+				cursor: pointer;
+
+				&:hover {
+					filter: invert(0.8);
+				}
+			}
+		}
+	}
+}
