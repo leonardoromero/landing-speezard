@@ -23,7 +23,6 @@ const Home: NextPage = () => {
 			<Stats />
 			<Testimonials/>
 			<Mentors />
-			<Testimonials />
 			<Footer />
 		</div>
 	)

@@ -1,7 +1,10 @@
 .mentors {
 	width: 90%;
 	max-width: 1440px;
-	margin: 32px auto;
+	margin: 64px auto;
+	@media (min-width: 724px) {
+		margin: 32px auto;
+	}
 
 	&__title {
 		width: 100%;
