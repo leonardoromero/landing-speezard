@@ -8,6 +8,8 @@ import ProofOfBuild from './sections/ProofOfBuild'
 import Speezard from './sections/Speezard'
 import Stats from './sections/Stats'
 import Testimonials from './sections/Testimonials'
+import Mentors from './sections/Mentors'
+
 
 const Home: NextPage = () => {
 	return (
@@ -19,8 +21,9 @@ const Home: NextPage = () => {
 			<ProofOfBuild />
 			<Projects />
 			<Stats />
-			<Testimonials />
-			<Footer/>
+			<Testimonials/>
+			<Mentors />
+			<Footer />
 		</div>
 	)
 }

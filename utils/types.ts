@@ -42,6 +42,12 @@ export type Wordings = {
 		heading2: string
 		testimonials: Testimonial[]
 	}
+	mentors: {
+		heading2: string
+		span: string
+		text: string
+		profiles: Profile[]
+	}
 }
 
 type Item = {
@@ -75,6 +81,15 @@ type Testimonial = {
 }
 
 export type Project = {
+	id: number
+	img: string
+	alt: string
+	heading6: string
+	description: string
+	links: Link[]
+}
+
+export type Profile = {
 	id: number
 	img: string
 	alt: string

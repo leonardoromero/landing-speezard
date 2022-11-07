@@ -1,7 +1,8 @@
-import { Project, Link } from '../utils/types'
+import { Project, Profile, Link } from '../utils/types'
 
 export type CTALinkProps = Link
 export type ProjectCardProps = Project
+export type ProfileCardProps = Profile
 export type TestimonialCardProps = {
 	text: string
 	person: {
