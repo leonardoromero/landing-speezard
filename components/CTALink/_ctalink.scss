@@ -2,9 +2,13 @@
 	all: unset;
 	background-color: $accent;
 	color: $base;
-	padding: 12px 24px;
+	padding: 0px 24px;
 	border-radius: 10px;
 	cursor: pointer;
+
+	@media (min-width: 900px) {
+		padding: 12px 24px;
+	}
 
 	&:hover {
 		filter: brightness(0.9);
@@ -12,5 +16,4 @@
 	&:active {
 		filter: brightness(0.8);
 	}
-
 }

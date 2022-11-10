@@ -84,13 +84,13 @@ const wordings: Wordings = {
 				img: 'boost',
 				alt: 'logo de boost',
 				heading6: 'Boost',
-				description: 'Dummy description',
+				description: 'Plataforma para potenciar microempresas en LATAM',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@boost',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@Boost__Finance',
+						href: 'https://twitter.com/boost__finance',
 					},
 				],
 			},
@@ -99,13 +99,14 @@ const wordings: Wordings = {
 				img: 'cracks',
 				alt: 'logo de cracks',
 				heading6: 'Cracks',
-				description: 'Dummy description',
+				description:
+					'Juego de deportes basado en resultados reales, con premios en crypto',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@cracks',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@Cracks_one',
+						href: 'https://www.twitter.com/cracks_one',
 					},
 				],
 			},
@@ -114,13 +115,14 @@ const wordings: Wordings = {
 				img: 'knoly',
 				alt: 'logo de knoly',
 				heading6: 'Knoly',
-				description: 'Dummy description',
+				description:
+					'Registro verificable de conocimientos humanos a través de validaciones P2P',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@knoly',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@KnolyMe',
+						href: 'https://www.twitter.com/knolyme',
 					},
 				],
 			},
@@ -128,14 +130,15 @@ const wordings: Wordings = {
 				id: 4,
 				img: 'rebrick',
 				alt: 'logo de rebrick',
-				heading6: 'rebrick',
-				description: 'Dummy description',
+				heading6: 'Rebrick',
+				description:
+					'Plataforma para la democratización de las inversiones inmobiliarias',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@rebrick',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@RebrickW3',
+						href: 'https://www.twitter.com/rebrickw3',
 					},
 				],
 			},
@@ -143,14 +146,14 @@ const wordings: Wordings = {
 				id: 5,
 				img: 'crypstation',
 				alt: 'logo de crypstation',
-				heading6: 'crypstation',
-				description: 'Dummy description',
+				heading6: 'Crypstation',
+				description: 'Primer Crypto Café Club de Latam y el Metaverso',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@crypstation',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@Crypstation',
+						href: 'https://www.twitter.com/crypstation',
 					},
 				],
 			},
@@ -159,13 +162,13 @@ const wordings: Wordings = {
 				img: 'strigo',
 				alt: 'logo de strigo',
 				heading6: 'Strigo',
-				description: 'Dummy description',
+				description: 'Frontend unificado para soluciones DeFi',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@strigo',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@Strigo_fi',
+						href: 'https://www.twitter.com/strigo_fi',
 					},
 				],
 			},
@@ -174,13 +177,13 @@ const wordings: Wordings = {
 				img: 'vean',
 				alt: 'logo de vean',
 				heading6: 'Vean',
-				description: 'Dummy description',
+				description: 'Editorial web3 sustentable',
 				links: [
 					{
 						id: 'twitter',
-						icon: 'twitter',
-						text: '@vean',
-						href: 'https://www.twitter.com',
+						icon: 'twitter-color',
+						text: '@VeanBooks',
+						href: 'https://www.twitter.com/veanbooks',
 					},
 				],
 			},
@@ -201,7 +204,7 @@ const wordings: Wordings = {
 		},
 		{
 			number: 24,
-			text: 'Mentores',
+			text: 'Desarrolladores',
 		},
 	],
 	testimonials: {
@@ -243,111 +246,213 @@ const wordings: Wordings = {
 		profiles: [
 			{
 				id: 1,
-				img: 'image1',
-				alt: 'imagen de Vitalik Buterin',
-				heading6: 'Vitalik Buterin',
-				description: 'Creador de Ethereum',
+				img: 'resiliente',
+				alt: 'imagen de perfil de resiliente',
+				heading6: 'Lucas Valeggiani',
+				description:
+					'Co-creador de la comunidad Resiliente y Speezard, Product & Growth - Crypto Mercado Pago',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@VitalikButerin',
-						href: 'https://twitter.com/VitalikButerin',
+						text: '@Resiliente_eth',
+						href: 'https://www.twitter.com/resiliente_eth',
 					},
 				],
 			},
 			{
 				id: 2,
-				img: 'image2',
-				alt: 'Imagen de Elon Musk',
-				heading6: 'Elon Musk',
-				description: 'Dummy description',
+				img: 'natyshi',
+				alt: 'imagen de perfil de natyshi',
+				heading6: 'NatyShi',
+				description:
+					'Emprendedora, tech fan, crypto DeFi researcher & content creator.',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@ElonMusk',
-						href: 'https://www.twitter.com',
+						text: '@NatyShi_',
+						href: 'https://www.twitter.com/NatyShi_',
 					},
 				],
 			},
 			{
 				id: 3,
-				img: 'image3',
-				alt: 'Imagen de Santi Siri',
-				heading6: 'Santi Siri',
-				description: 'Dummy description',
+				img: 'zeki',
+				alt: 'imagen de perfil de ezequiel rambla (zeki)',
+				heading6: 'Ezequiel Rambla',
+				description:
+					'Designer, writer, entrepreneur. Founder of @soulsofmelonbay. Web3 entertainment',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@SantiSiri',
-						href: 'https://www.twitter.com',
+						text: '@EzequielRambla',
+						href: 'https://twitter.com/EzequielRambla',
 					},
 				],
 			},
 			{
 				id: 4,
-				img: 'image4',
-				alt: 'Imagen de Satoshi Nakamoto',
-				heading6: 'Satoshi',
-				description: 'Dummy description',
+				img: 'p4troy',
+				alt: 'imagen de perfil de Martin Pefaur',
+				heading6: 'Martin Pefaur',
+				description:
+					'Blockchain Expert - Lawyer - Developer, CEO of Ludus Game and P4 Tech Solutions',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@ImNotSatoshi',
-						href: 'https://www.twitter.com',
+						text: '@MartinPefaur',
+						href: 'https://www.twitter.com/MartinPefaur',
 					},
 				],
 			},
 			{
 				id: 5,
-				img: 'image5',
-				alt: 'imagen de Gavin Wood',
-				heading6: 'Gavin Wood',
-				description: 'Dummy description',
+				img: 'santiar23',
+				alt: 'imagen de perfil de santi',
+				heading6: 'Santi',
+				description: 'Crypto enthusiast. Web3 learner',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@GavinWood',
-						href: 'https://www.twitter.com',
+						text: '@Santiar23',
+						href: 'https://www.twitter.com/santiar23',
 					},
 				],
 			},
 			{
 				id: 6,
-				img: 'image6',
-				alt: 'imagen de Charles Hoskinson',
-				heading6: 'Charles',
-				description: 'Dummy description',
+				img: 'fedelenci',
+				alt: 'imagen de perfil de Fede Lenci',
+				heading6: 'Fede Lenci',
+				description:
+					'Comunicador Visual | Researcher crypto & start-ups | Co-founder @unibotz',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@CarlitosHoskinson',
-						href: 'https://www.twitter.com',
+						text: '@fede_lenci7',
+						href: 'https://www.twitter.com/fede_lenci7',
 					},
 				],
 			},
 			{
 				id: 7,
-				img: 'image7',
-				alt: 'imagen de Toni Stark',
-				heading6: 'Toni Stark',
-				description: 'Dummy description',
+				img: 'santypk4',
+				alt: 'imagen de perfil de santypk4',
+				heading6: 'Santypk4',
+				description: 'CEO at Building Ideas and Software on the Road',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@ToniStark',
-						href: 'https://www.twitter.com',
+						text: '@SantyPK4',
+						href: 'https://www.twitter.com/SantyPK4',
 					},
 				],
 			},
-		]
-	}
+
+			{
+				id: 8,
+				img: 'paulaarenzo',
+				alt: 'imagen de perfil de Paula Arenzo',
+				heading6: 'Paula Arenzo',
+				description:
+					'Abogada especializada en Tecnología. Crypto enthusiast. Co-founder de @CryptoCampoNet',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@PaulaArenzo',
+						href: 'https://www.twitter.com/PaulaArenzo',
+					},
+				],
+			},
+			{
+				id: 9,
+				img: 'mikesimmons',
+				alt: 'imagen de perfil de Mike Simmons',
+				heading6: 'Mike Simmons',
+				description:
+					'Aprendiendo y compartiendo sobre venture capital en LATAM. VC @ Flambeau Capital Partners | Abogado de M&As',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@10MikeSimmons',
+						href: 'https://www.twitter.com/10MikeSimmons',
+					},
+				],
+			},
+			{
+				id: 10,
+				img: 'exeguerra',
+				alt: 'imagen de perfil de Exe Guerra',
+				heading6: 'Exe Guerra',
+				description:
+					'Conductor del podcast Hablemos de Bitcoin, profesor en Proof of Integrity',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@exeguerra_eth',
+						href: 'https://www.twitter.com/exeguerra_eth',
+					},
+				],
+			},
+			{
+				id: 11,
+				img: 'ayelaurencena',
+				alt: 'imagen de perfil de Aye Laurencena',
+				heading6: 'Aye Laurencena',
+				description: '',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@AyeLaurencena',
+						href: 'https://www.twitter.com/AyeLaurencena',
+					},
+				],
+			},
+			{
+				id: 12,
+				img: 'manulamedica',
+				alt: 'imagen de perfil de Manu Lamedica',
+				heading6: 'Manu Lamedica',
+				description:
+					'Creando @fungiverse_nft & @cryptodonas_ff, Co-Founder @groulabs',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@ManuLamedica',
+						href: 'https://www.twitter.com/manulamedica',
+					},
+				],
+			},
+
+			{
+				id: 13,
+				img: 'solangesoifer',
+				alt: 'imagen de perfil de Solange Soifer',
+				heading6: 'Solange Soifer',
+				description:
+					'@startupgrind Chapter Director. @googlestartups Mentor. University Professor',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@SolangeSoifer',
+						href: 'https://www.twitter.com/SolangeSoifer',
+					},
+				],
+			},
+		],
+	},
 }
 
 export default wordings

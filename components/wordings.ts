@@ -11,8 +11,8 @@ const wordings: Wordings = {
 			text: 'Comunidad',
 		},
 		{
-			href: 'testimonials',
-			text: 'Testimonios',
+			href: 'projects',
+			text: 'Proyectos',
 		},
 		{
 			href: 'mentors',
@@ -34,15 +34,15 @@ const wordings: Wordings = {
 				{
 					id: 2,
 					external: true,
-					href: '/resiliente',
+					href: 'https://discord.gg/zjt9Up3JWp',
 					text: 'Resiliente',
 				},
-				{
-					id: 3,
-					external: true,
-					href: '/comunidad-mínima-viable',
-					text: 'Comunidad Mínima Viable',
-				},
+				// {
+				// 	id: 3,
+				// 	external: true,
+				// 	href: '/comunidad-mínima-viable',
+				// 	text: 'Comunidad Mínima Viable',
+				// },
 				{
 					id: 4,
 					external: false,
@@ -57,12 +57,12 @@ const wordings: Wordings = {
 					href: 'speezard',
 					text: 'Programa',
 				},
-				{
-					id: 2,
-					external: true,
-					href: '/contenido',
-					text: 'Contenido',
-				},
+				// {
+				// 	id: 2,
+				// 	external: true,
+				// 	href: '/contenido',
+				// 	text: 'Contenido',
+				// },
 				{
 					id: 3,
 					external: false,
@@ -71,16 +71,16 @@ const wordings: Wordings = {
 				},
 				{
 					id: 4,
-					external: true,
-					href: '/proof-of-build',
+					external: false,
+					href: 'proof-of-build',
 					text: 'Proof of Build',
 				},
-				{
-					id: 5,
-					external: false,
-					href: 'testimonials',
-					text: 'Testimonios',
-				},
+				// {
+				// 	id: 5,
+				// 	external: false,
+				// 	href: 'testimonials',
+				// 	text: 'Testimonios',
+				// },
 			],
 			col3: [
 				{
@@ -93,7 +93,7 @@ const wordings: Wordings = {
 		},
 		bottom: {
 			text: '2022 @ Speezard by ',
-			span: 'Resiliente',
+			span: 'Comunidad Resiliente',
 			social: [
 				{
 					id: 1,

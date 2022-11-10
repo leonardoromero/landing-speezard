@@ -41,7 +41,9 @@ const Footer = () => {
 			<div className="footer__bottom">
 				<p>
 					{bottom.text}
-					<span>{bottom.span}</span>
+					<Link href="https://discord.gg/zjt9Up3JWp">
+						<span>{bottom.span}</span>
+					</Link>
 				</p>
 				<div className="footer__bottom-social">
 					{bottom.social.map(link => (

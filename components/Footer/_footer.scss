@@ -4,7 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 32px;
-	margin: 100px auto 0;
+	margin: 128px auto 0;
 	padding: 32px 0;
 	text-align: center;
 
@@ -44,7 +44,6 @@
 				display: flex;
 				flex-direction: column;
 				line-height: 3.5rem;
-				width: 33%;
 
 				a {
 					cursor: pointer;
@@ -73,6 +72,7 @@
 		}
 
 		span {
+			cursor: pointer;
 			font-weight: bold;
 			@extend .accent-word;
 			background-image: linear-gradient(

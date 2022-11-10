@@ -9,7 +9,7 @@ import Speezard from './sections/Speezard'
 import Stats from './sections/Stats'
 import Testimonials from './sections/Testimonials'
 import Mentors from './sections/Mentors'
-
+import Contact from './sections/Contact'
 
 const Home: NextPage = () => {
 	return (
@@ -21,8 +21,9 @@ const Home: NextPage = () => {
 			<ProofOfBuild />
 			<Projects />
 			<Stats />
-			<Testimonials/>
+			{/* <Testimonials /> */}
 			<Mentors />
+			<Contact />
 			<Footer />
 		</div>
 	)
