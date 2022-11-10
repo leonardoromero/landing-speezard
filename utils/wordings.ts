@@ -195,16 +195,16 @@ const wordings: Wordings = {
 			text: 'Start-ups',
 		},
 		{
-			number: 42,
-			text: 'Emprendedores',
+			number: 75,
+			text: 'Builders',
 		},
 		{
 			number: 18,
 			text: 'Mentores',
 		},
 		{
-			number: 24,
-			text: 'Desarrolladores',
+			number: 126,
+			text: 'Contribuciones',
 		},
 	],
 	testimonials: {
