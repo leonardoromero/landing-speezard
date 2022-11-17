@@ -76,7 +76,7 @@ const wordings: Wordings = {
 		],
 	},
 	projects: {
-		heading2: 'que nos acompañan.',
+		heading2: 'que participaron del programa.',
 		span: ' proyectos ',
 		projects: [
 			{
