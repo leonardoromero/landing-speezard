@@ -105,8 +105,8 @@ const wordings: Wordings = {
 					{
 						id: 'twitter',
 						icon: 'twitter-color',
-						text: '@Cracks_one',
-						href: 'https://www.twitter.com/cracks_one',
+						text: '@Cracks_app',
+						href: 'https://www.twitter.com/cracks_app',
 					},
 				],
 			},
