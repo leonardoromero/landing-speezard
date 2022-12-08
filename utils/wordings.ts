@@ -2,7 +2,7 @@ import { Wordings } from './types'
 
 const wordings: Wordings = {
 	hero: {
-		heading1: 'Hacemos crecer tu start up Web3 en ',
+		heading1: 'Hacemos crecer tu start-up Web3 en ',
 		span: 'comunidad.',
 		text: 'Lanzamos el primer programa pre-acelerador de startups Web3 que pone una comunidad mínima viable al servicio de nuevos emprendimientos en el ecosistema.',
 		footer: {
@@ -368,22 +368,6 @@ const wordings: Wordings = {
 						icon: 'twitter',
 						text: '@PaulaArenzo',
 						href: 'https://www.twitter.com/PaulaArenzo',
-					},
-				],
-			},
-			{
-				id: 9,
-				img: 'mikesimmons',
-				alt: 'imagen de perfil de Mike Simmons',
-				heading6: 'Mike Simmons',
-				description:
-					'Aprendiendo y compartiendo sobre venture capital en LATAM. VC @ Flambeau Capital Partners | Abogado de M&As',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter',
-						text: '@10MikeSimmons',
-						href: 'https://www.twitter.com/10MikeSimmons',
 					},
 				],
 			},

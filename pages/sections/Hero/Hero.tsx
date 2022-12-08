@@ -17,7 +17,7 @@ const Hero = () => {
 			</div>
 			<div className="hero__footer">
 				<p>{footer.text}</p>
-				<Link href="https://discord.com/invite/zjt9Up3JWp">
+				<Link href="https://discord.gg/B3FaujHRwE">
 					<Image
 						src="/logos/logo-resiliente-blanco.png"
 						alt={footer.alt}
