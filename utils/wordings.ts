@@ -112,22 +112,6 @@ const wordings: Wordings = {
 			},
 			{
 				id: 3,
-				img: 'knoly',
-				alt: 'logo de knoly',
-				heading6: 'Knoly',
-				description:
-					'Registro verificable de conocimientos humanos a través de validaciones P2P',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter-color',
-						text: '@KnolyMe',
-						href: 'https://www.twitter.com/knolyme',
-					},
-				],
-			},
-			{
-				id: 4,
 				img: 'rebrick',
 				alt: 'logo de rebrick',
 				heading6: 'Rebrick',
@@ -143,7 +127,7 @@ const wordings: Wordings = {
 				],
 			},
 			{
-				id: 5,
+				id: 4,
 				img: 'crypstation',
 				alt: 'logo de crypstation',
 				heading6: 'Crypstation',
@@ -154,6 +138,21 @@ const wordings: Wordings = {
 						icon: 'twitter-color',
 						text: '@Crypstation',
 						href: 'https://www.twitter.com/crypstation',
+					},
+				],
+			},
+			{
+				id: 5,
+				img: 'vean',
+				alt: 'logo de vean',
+				heading6: 'Vean',
+				description: 'Editorial web3 sustentable',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter-color',
+						text: '@VeanBooks',
+						href: 'https://www.twitter.com/veanbooks',
 					},
 				],
 			},
@@ -174,16 +173,17 @@ const wordings: Wordings = {
 			},
 			{
 				id: 7,
-				img: 'vean',
-				alt: 'logo de vean',
-				heading6: 'Vean',
-				description: 'Editorial web3 sustentable',
+				img: 'knoly',
+				alt: 'logo de knoly',
+				heading6: 'Knoly',
+				description:
+					'Registro verificable de conocimientos humanos a través de validaciones P2P',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter-color',
-						text: '@VeanBooks',
-						href: 'https://www.twitter.com/veanbooks',
+						text: '@KnolyMe',
+						href: 'https://www.twitter.com/knolyme',
 					},
 				],
 			},
@@ -294,6 +294,22 @@ const wordings: Wordings = {
 			},
 			{
 				id: 4,
+				img: 'fedelenci',
+				alt: 'imagen de perfil de Fede Lenci',
+				heading6: 'Fede Lenci',
+				description:
+					'Comunicador Visual | Researcher crypto & start-ups | Co-founder @unibotz',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@fede_lenci7',
+						href: 'https://www.twitter.com/fede_lenci7',
+					},
+				],
+			},
+			{
+				id: 5,
 				img: 'p4troy',
 				alt: 'imagen de perfil de Martin Pefaur',
 				heading6: 'Martin Pefaur',
@@ -309,7 +325,7 @@ const wordings: Wordings = {
 				],
 			},
 			{
-				id: 5,
+				id: 6,
 				img: 'santiar23',
 				alt: 'imagen de perfil de santi',
 				heading6: 'Santi',
@@ -320,22 +336,6 @@ const wordings: Wordings = {
 						icon: 'twitter',
 						text: '@Santiar23',
 						href: 'https://www.twitter.com/santiar23',
-					},
-				],
-			},
-			{
-				id: 6,
-				img: 'fedelenci',
-				alt: 'imagen de perfil de Fede Lenci',
-				heading6: 'Fede Lenci',
-				description:
-					'Comunicador Visual | Researcher crypto & start-ups | Co-founder @unibotz',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter',
-						text: '@fede_lenci7',
-						href: 'https://www.twitter.com/fede_lenci7',
 					},
 				],
 			},

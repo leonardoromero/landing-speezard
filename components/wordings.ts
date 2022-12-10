@@ -34,7 +34,7 @@ const wordings: Wordings = {
 				{
 					id: 2,
 					external: true,
-					href: 'https://discord.gg/zjt9Up3JWp',
+					href: 'https://bit.ly/ComunidadResiliente',
 					text: 'Resiliente',
 				},
 				// {
@@ -98,17 +98,17 @@ const wordings: Wordings = {
 				{
 					id: 1,
 					icon: 'twitter',
-					href: 'https://www.twitter.com/speezard_web3',
+					href: 'https://bit.ly/TwitterSpeezard',
 				},
 				{
 					id: 2,
 					icon: 'discord',
-					href: 'https://discord.gg/zjt9Up3JWp',
+					href: 'https://bit.ly/ComunidadResiliente',
 				},
 				{
 					id: 3,
 					icon: 'linkedin',
-					href: 'https://www.linkedin.com/company/speezard-web3/about/',
+					href: 'https://bit.ly/LinkedinSpeezard',
 				},
 			],
 		},
