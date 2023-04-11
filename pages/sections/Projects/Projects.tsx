@@ -10,6 +10,7 @@ const {
 } = wordings
 
 const Projects = () => {
+	
 	return (
 		<section className="projects" id="projects">
 			<h2 className="projects__title">
@@ -19,6 +20,7 @@ const Projects = () => {
 			</h2>
 			<div className="projects__slider">
 				<Swiper
+					spaceBetween={-50}
 					navigation={true}
 					modules={[Navigation]}
 					breakpoints={{

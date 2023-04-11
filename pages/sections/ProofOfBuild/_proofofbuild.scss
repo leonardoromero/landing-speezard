@@ -21,6 +21,7 @@
 		}
 
 		&__bullet {
+			text-align: left;
 			h5 {
 				@extend .heading;
 				@extend .mobile-heading-5;
@@ -33,7 +34,8 @@
 			p {
 				@extend .paragraph;
 				@extend .mobile-paragraph-md;
-				margin: 12px 0 24px;
+				margin: 12px 0 34px;
+				
 				@media (min-width: 724px) {
 					font-size: 1.6rem;
 					line-height: 2.4rem;

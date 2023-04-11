@@ -1,7 +1,7 @@
 .navbar {
 	background-color: $base;
-	height: 75px;
-	padding: 0 1rem;
+	height: 80px;
+	padding: 0 3rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -45,6 +45,7 @@
 
 			a {
 				cursor: pointer;
+				transition: all 0.2s ease-out;
 				&:hover {
 					color: $accent;
 				}
@@ -57,8 +58,8 @@
 
 	&__logo {
 		position: relative;
-		width: 260px;
-		height: 60px;
+		width: 150px;
+		height: 40px;
 		cursor: pointer;
 	}
 }
