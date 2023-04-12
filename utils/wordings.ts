@@ -66,7 +66,7 @@ const wordings: Wordings = {
 			{
 				id: 2,
 				heading5: 'Prueba de co-construcción',
-				text: 'Proof of Build le otorga a aquellas personas de la comunidad, los Builders, un NFT que prueba que fueron claves para impulsar los proyectos, otorgados directamente por éstos en base al mérito.',
+				text: 'Proof of Build otorga a los Builders, miembros clave de la comunidad, un token que prueba su contribución en el impulso de los proyectos. Estos tokens son otorgados directamente por los proyectos en base al mérito de cada Builder.',
 			},
 			{
 				id: 3,
