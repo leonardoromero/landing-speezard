@@ -28,7 +28,9 @@ const ProjectCard = ({
 						height={18}
 					/>
 					<Link href={link.href} key={link.id}>
-						{link.text}
+						<a target={'_blank'}>
+							{link.text}
+						</a>
 					</Link>
 				</>
 			))}

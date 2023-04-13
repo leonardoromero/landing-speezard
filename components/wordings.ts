@@ -98,7 +98,7 @@ const wordings: Wordings = {
 				{
 					id: 1,
 					icon: 'twitter',
-					href: 'https://bit.ly/TwitterSpeezard',
+					href: 'https://twitter.com/Speezard_W3',
 				},
 				{
 					id: 2,

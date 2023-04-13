@@ -42,18 +42,25 @@ const Footer = () => {
 				<p>
 					{bottom.text}
 					<span>
-						<Link href="https://bit.ly/TwitterResiliente">{bottom.span}</Link>
+						<Link href="https://bit.ly/TwitterResiliente">
+							<a target={'_blank'}>
+								{bottom.span}
+							</a>
+								
+						</Link>
 					</span>
 				</p>
 				<div className="footer__bottom-social">
 					{bottom.social.map(link => (
-						<Link href={link.href} key={link.id}>
-							<Image
-								src={`/icons/${link.icon}.svg`}
-								alt={`${link.icon} icon`}
-								width={40}
-								height={40}
-							/>
+						<Link href={link.href} key={link.id} rel="noreferrer">
+							<a target={'_blank'}>
+								<Image
+									src={`/icons/${link.icon}.svg`}
+									alt={`${link.icon} icon`}
+									width={40}
+									height={40}
+								/>
+							</a>
 						</Link>
 					))}
 				</div>

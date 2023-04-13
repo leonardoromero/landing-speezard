@@ -18,7 +18,9 @@ const ProfileCard = ({
 				<Image src='/icons/twitter-color.svg' alt="" width={18} height={18} />
 				{links.map(link => (
 					<Link href={link.href} key={link.id}>
-						{link.text}
+						<a target={'_blank'}>
+							{link.text}
+						</a>
 					</Link>
 				))}
 			</div>
