@@ -18,12 +18,15 @@ const Hero = () => {
 			<div className="hero__footer">
 				<p>{footer.text}</p>
 				<Link href="https://bit.ly/TwitterResiliente">
-					<Image
-						src="/logos/logo-resiliente-blanco.png"
-						alt={footer.alt}
-						width={250}
-						height={45}
-					/>
+					<a target={'_blank'}>
+						<Image
+							src="/logos/logo-resiliente-blanco.png"
+							alt={footer.alt}
+							width={250}
+							height={45}
+						/>
+					</a>
+					
 				</Link>
 			</div>
 		</section>
