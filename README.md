@@ -49,3 +49,4 @@ Estaremos utilizando:
 4. Ingresar el comando `git clone https://github.com/leonardoromero/landing-resiliente/`
 5. Asegurarse de estar en el directorio del repositorio (por ejemplo Documentos/landing-resiliente) y correr el comando `npm install` o `yarn install` si utlilizan ese gestor de paquetes
 6. Correr `npm run start` para levantar el frontend
+# speezard-prueba
