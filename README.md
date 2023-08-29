@@ -50,3 +50,4 @@ Estaremos utilizando:
 5. Asegurarse de estar en el directorio del repositorio (por ejemplo Documentos/landing-resiliente) y correr el comando `npm install` o `yarn install` si utlilizan ese gestor de paquetes
 6. Correr `npm run start` para levantar el frontend
 # speezard-prueba
+# speezard-prueba
