@@ -63,7 +63,7 @@
 			height: 85px;
 			@media only screen and (min-width: 320px) and (max-width: 767px) {
 				/* Estilos específicos para pantallas de tamaño medio (375px) */
-				width: 100px;
+				width: 90px;
 				height: 50px;
 			}
 		}
@@ -72,7 +72,7 @@
 			height: 95px;
 			@media only screen and (min-width: 320px) and (max-width: 767px) {
 				/* Estilos específicos para pantallas de tamaño medio (375px) */
-				width: 140px;
+				width: 110px;
 				height: 50px;
 			}
 		}
@@ -80,10 +80,12 @@
 			width: 225px;
 			height: 85px;
 			transform: translateY(-10px);
+
 			@media only screen and (min-width: 320px) and (max-width: 767px) {
 				/* Estilos específicos para pantallas de tamaño medio (375px) */
-				width: 150px;
+				width: 110px;
 				height: 50px;
+				transform: translateY(0px);
 			}
 		}
 		.invest{
