@@ -1,16 +1,19 @@
 // ====================
 //        COLORS
 // ====================
-$base: #0f1118;
+$base: #061A05;
 $accent: #1ed760;
+$orange: #FF0000;
+$speezardgreen: #061A05;
+$white: aliceblue;
 
 // ====================
-//      HEADINGS
+//      HEADINGS text-wrap: balance; 
 // ====================
 .heading {
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
-	letter-spacing: -0.02em;
+	letter-spacing: 0.02em;
 }
 //       Desktop
 .desktop-heading-1 {
@@ -165,4 +168,30 @@ $accent: #1ed760;
 	-webkit-text-fill-color: transparent;
 	-moz-background-clip: text;
 	-moz-text-fill-color: transparent;
+}
+
+@keyframes floatingAnimation {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		  transform: translateY(-20px); /* Ajusta la distancia del movimiento vertical */
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes spinback {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
 }

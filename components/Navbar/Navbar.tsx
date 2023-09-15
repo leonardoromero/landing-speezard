@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 
 import Image from 'next/image'
 
+import Contact from '../Contact/Contact'
+
 import { Slant as Hamburger } from 'hamburger-react'
 import { Link as ScrollLink } from 'react-scroll'
 
@@ -45,9 +47,10 @@ const Navbar = () => {
 				<div className="navbar__logo">
 					<ScrollLink smooth={true} offset={-50} duration={500} to="hero">
 						<Image
-							src="/logos/logo-speezard-verde.png"
+							src="/logos/speezard-verde-blanco.svg"
 							alt="logo speezard"
-							layout="fill"
+							width={160}
+                            height={50}
 						/>
 					</ScrollLink>
 				</div>
@@ -76,7 +79,7 @@ const Navbar = () => {
 								duration={500}
 								to="contact"
 							>
-								<button className="cta">Ser Parte</button>
+								<Contact ctaText="Ser parte" buttonColor="$base" />
 							</ScrollLink>
 						</div>
 					)}
@@ -96,15 +99,6 @@ const Navbar = () => {
 							{link.text}
 						</ScrollLink>
 					))}
-					<ScrollLink
-						smooth={true}
-						offset={-50}
-						duration={500}
-						to="contact"
-						onClick={() => setIsMobileNavbarVisible(false)}
-					>
-						<button className="cta">Ser Parte</button>
-					</ScrollLink>
 				</div>
 			)}
 		</>

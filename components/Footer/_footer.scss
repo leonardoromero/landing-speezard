@@ -7,6 +7,10 @@
 	margin: 128px auto 0;
 	padding: 32px 0;
 	text-align: center;
+	@media only screen and (min-width: 320px) and (max-width: 767px) {
+		/* Estilos específicos para pantallas de tamaño medio (375px) */
+		width: 100%;
+	}
 
 	&__top {
 		display: flex;
@@ -24,6 +28,15 @@
 				font-size: 1.6rem;
 				line-height: 2.6rem;
 			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 30px;
+				padding-bottom: 10px;
+			}
+
 		}
 
 		&-right {
@@ -33,17 +46,27 @@
 			gap: 20px;
 			@extend .paragraph;
 			@extend .mobile-paragraph-lg;
-			@media (min-width: 900px) {
+			@media (min-width: 768px) {
 				flex-direction: row;
 				align-items: flex-start;
+				justify-content: center;
 				font-size: 14px;
 				line-height: 20px;
+			}
+
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				width: 100%;
+				flex-direction: row;
+				align-items: flex-start;
+				justify-content: center;
+				gap: 20px;
 			}
 
 			&-col {
 				display: flex;
 				flex-direction: column;
-				line-height: 3.5rem;
+				line-height: 4.5rem;
 
 				a {
 					cursor: pointer;
@@ -69,6 +92,12 @@
 			justify-content: space-between;
 			font-size: 14px;
 			line-height: 20px;
+		}
+		@media only screen and (min-width: 320px) and (max-width: 767px) {
+			/* Estilos específicos para pantallas de tamaño medio (375px) */
+			padding-top: 32px;
+			font-size: 16px;
+			line-height: 32px;
 		}
 
 		span {
@@ -97,20 +126,31 @@
 			);
 		}
 
+		&-span2{
+			color: $accent;
+			font-weight: 400;
+		}
+
 		&-social {
 			display: flex;
 			justify-content: center;
 			gap: 24px;
-			@media (min-width: 900px) {
+			@media (min-width: 768px) {
+				padding-bottom: 20px;
 				gap: 40px;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				padding-top: 16px;
+				gap: 50px;
 			}
 
 			img {
-				filter: invert(1);
 				cursor: pointer;
+				transition: all 0.2s ease-out;
 
 				&:hover {
-					filter: invert(0.8);
+					opacity: 0.4;
 				}
 			}
 		}

@@ -1,0 +1,207 @@
+.roadmap {
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 128px 32px;
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: 900px) {
+		display: flex;
+		gap: 32px;
+		text-align: right;
+	}
+
+	@media only screen and (min-width: 320px) and (max-width: 767px) {
+		/* Estilos específicos para pantallas de tamaño medio (320px) */
+		width: 100%;
+	}
+
+	&__top {
+		flex-direction: row;
+
+		&__left {
+		display: grid;
+		align-content: center;
+		justify-items: center;
+		text-align: center;
+		
+		@media (min-width: 900px) {
+			width: 50%;
+			justify-items: left;
+			text-align: left;
+		}
+		
+
+		&-title {
+			@extend .heading;
+			@extend .mobile-heading-3;
+			@media (min-width: 724px) {
+				font-size: 4.8rem;
+				line-height: 6.5rem;
+				margin-bottom: 16px;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (320px) */
+				padding-top: 32px;
+			}
+		}
+		
+		span {
+			color: $accent;
+		}
+
+		&-text {
+			@extend .paragraph;
+			@extend .mobile-paragraph-md;
+			margin-top: 24px;
+			width: 90%;
+
+			@media (min-width: 724px) {
+				font-size: 1.8rem;
+				line-height: 2.8rem;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (320px) */
+				width: 100%;
+			}
+		}
+		}
+
+	&__right {
+		margin: 16px;
+		display: flex;
+		justify-content: right;
+
+		@media (min-width: 900px) {
+			justify-items: right;
+		}
+		@media only screen and (min-width: 320px) and (max-width: 900px) {
+			/* Estilos específicos para pantallas de tamaño medio (320px) */
+			display: none;
+		}
+
+		&-lamp {
+			position: absolute;
+			margin-top: -150px;
+			margin-right: 250px;
+		}
+
+		&-top-gear {
+			position: absolute;
+			margin-top: -280px;
+			margin-right: 150px;
+			animation: spin 6s linear infinite;
+		}
+
+		&-bottom-gear {
+			position: absolute;
+			margin-top: -180px;
+			margin-left: 240px;
+			animation: spinback 8s linear infinite;
+		}
+	}
+	}
+
+	&__middle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&-road {
+			@media (min-width: 768px) and (orientation: portrait) {
+				/* Estilos específicos para tabletas en orientación vertical */
+				width: 500;
+				height: 1200;
+			}
+		}
+	}
+
+	&__bottom {
+		background-color: $white;
+		border-radius: 10px;
+		height: 250px;
+		@media (min-width: 768px) and (max-width: 1000px) {
+			height: 340px;
+		}
+		@media only screen and (min-width: 320px) and (max-width: 767px) {
+			/* Estilos específicos para pantallas de tamaño medio (375px) */
+			height: 400px;
+		}
+		&__left {
+			display: grid;
+			align-content: center;
+			justify-items: center;
+			text-align: center;
+			color: $base;
+			margin: 3rem 2rem 0 4rem;
+			
+			@media (min-width: 900px) {
+				width: 50%;
+				justify-items: left;
+				text-align: left;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				width: 76%;
+				justify-items: center;
+				text-align: center;
+				margin-top: 40px;
+			}
+			&-title {
+				@extend .heading;
+				@extend .mobile-heading-3;
+				@media (min-width: 724px) {
+					font-size: 4.8rem;
+					line-height: 6.5rem;
+					margin-bottom: 16px;
+				}
+				@media only screen and (min-width: 320px) and (max-width: 767px) {
+					/* Estilos específicos para pantallas de tamaño medio (375px) */
+					margin: 0.2rem 0.2rem 4rem 0.2rem;
+					padding-top: 20px;
+				}
+			}
+			
+			span {
+				color: $accent;
+			}
+
+			&-text {
+				@extend .paragraph;
+				@extend .mobile-paragraph-md;
+				width: 85%;
+				font-weight: 600;
+
+				@media (min-width: 724px) {
+					font-size: 1.8rem;
+					line-height: 2.8rem;
+				}
+				@media only screen and (min-width: 320px) and (max-width: 767px) {
+					/* Estilos específicos para pantallas de tamaño medio (375px) */
+					margin: 0.2rem 0.2rem 4rem 0.2rem;
+				}
+			}
+		}
+		&__right {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			font-size: 1.8rem;
+			margin: -11rem 4rem;
+
+			@media (min-width: 768px )and (max-width: 1000px) {
+				margin: -6rem 4rem;
+				font-size: 20px;
+				justify-content: center;
+				height: 240px;
+			}
+
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				margin: 0rem 4rem;
+				font-size: 16px;
+				justify-content: center;
+			}
+		}
+	}
+}

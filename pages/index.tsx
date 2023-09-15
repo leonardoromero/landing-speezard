@@ -5,13 +5,12 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Community from './sections/Community'
 import Hero from './sections/Hero'
-import Projects from './sections/Projects'
-import ProofOfBuild from './sections/ProofOfBuild'
 import Speezard from './sections/Speezard'
-import Stats from './sections/Stats'
+import Stats from './sections/Partners'
 import Testimonials from './sections/Testimonials'
 import Mentors from './sections/Mentors'
-import Contact from './sections/Contact'
+import Roadmap from './sections/Roadmap'
+import Movements from './sections/Movements'
 
 const Home: NextPage = () => {
 	return (
@@ -20,18 +19,21 @@ const Home: NextPage = () => {
 				title="Speezard 🦎 Pre-incubadora Web3.0"
 				description="Speezard es una pre-incubadora de start-ups web3 en LATAM que pone una comunidad mínima viable al servicio del ecosistema."
 				canonical="https://www.speezard.io/"
-				
 			/>
 			<Navbar />
 			<Hero />
 			<Speezard />
 			<Community />
+			<Roadmap />
+			<Mentors />
+			<Stats />
+			{/*
 			<ProofOfBuild />
 			<Projects />
-			<Stats />
-			{/* <Testimonials /> */}
-			<Mentors />
 			<Contact />
+			*/}
+			<Movements />
+			<Testimonials />
 			<Footer />
 		</div>
 	)

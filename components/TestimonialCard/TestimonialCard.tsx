@@ -1,25 +1,43 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { TestimonialCardProps } from '../types'
 
 const TestimonialCard = ({
 	text,
-	person: { name, description },
+	person: { name, img, description, href },
 }: TestimonialCardProps) => {
 	return (
 		<article className="testimonial-card">
-			<p className="testimonial-card__text">{text}</p>
 			<div className="testimonial-card__person">
 				<Image
-					src="/icons/person-circle.svg"
+					src={`/testimonials/${img}.png`}
 					alt=""
-					width={75}
-					height={75}
+					width={140}
+					height={140}
 					className="icon"
 				/>
-				<h6 className="testimonial-card__person-title">{name}</h6>
+				<div className='testimonial-card__person-social'>
+					<Link
+						href={href}
+						rel="noreferrer"
+						target={'_blank'}
+						className='button'
+					>
+						<Image
+							src='/icons/twitter-x.svg'
+							alt="X-twitter"
+							width={34}
+							height={54}
+						/>
+						<h4 className="testimonial-card__person-title">
+							{name}
+						</h4>
+					</Link>
+				</div>
 				<p className="testimonial-card__person-description">{description}</p>
 			</div>
+			<p className="testimonial-card__text">{text}</p>
 		</article>
 	)
 }

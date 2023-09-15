@@ -27,10 +27,12 @@ const ProjectCard = ({
 						width={18}
 						height={18}
 					/>
-					<Link href={link.href} key={link.id}>
-						<a target={'_blank'}>
+					<Link
+						href={link.href}
+						key={link.id}
+						target={'_blank'}
+					>
 							{link.text}
-						</a>
 					</Link>
 				</>
 			))}

@@ -1,36 +1,83 @@
 .mentors {
 	width: 90%;
 	max-width: 1440px;
-	margin: 128px auto;
-	text-align: center;
+	margin: 0 auto;
 
-	&__title {
-		width: 100%;
-		@extend .heading;
-		@extend .mobile-heading-2;
-		margin: 0 auto;
-		@media (min-width: 724px) {
-			font-size: 4.8rem;
-			line-height: 6.5rem;
+	&__top {
+		display: flex;
+		flex-direction: column;
+		padding: 0 0 32px 32px;
+		@media (min-width: 900px) {
+			flex-direction: row;
 		}
-		span {
-			@extend .accent-word;
+		&-left {
+			display: grid;
+			align-content: center;
+			justify-items: center;
+			text-align: left;
+			@media (min-width: 768px) {
+				text-align: center;
+				align-content: center;
+				justify-items: center;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				width: 100%;
+				text-align: center;
+				align-content: center;
+				justify-items: center;
+			}
+			
+			&__title {
+				@extend .heading;
+				@extend .mobile-heading-3;
+				@media (min-width: 724px) {
+					font-size: 4.8rem;
+					line-height: 6.5rem;
+				}
+				span {
+					color: $accent;
+				}
+				@media only screen and (min-width: 320px) and (max-width: 767px) {
+					/* Estilos específicos para pantallas de tamaño medio (375px) */
+					margin: 0;
+					text-align: center;
+				}
+				&-text {
+					@extend .paragraph;
+					@extend .mobile-paragraph-md;
+					margin: 32px auto;
+
+					@media (min-width: 724px) {
+						font-weight: 400;
+						font-size: 1.6rem;
+						line-height: 2.4rem;
+					}
+				}
+			}
 		}
-		&-text {
-			width: 70%;
-			@extend .paragraph;
-			@extend .mobile-paragraph-md;
-			margin: 30px auto;
-			margin-bottom: 42px;
-			@media (min-width: 724px) {
-				font-size: 1.6rem;
-				line-height: 2.4rem;
+
+		&__right {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			@media (min-width: 900px) {
+				justify-content: right;
+				width: 40%;
+			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				display: none;
+			}
+			@media (min-width: 768px) and (max-width: 1024px) {
+				/* Estilos específicos para tabletas en orientación vertical */
+				display: none;
 			}
 		}
 	}
 
 	&__slider {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		display: flex;
 		justify-content: center;

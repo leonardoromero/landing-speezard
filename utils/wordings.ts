@@ -2,42 +2,78 @@ import { Wordings } from './types'
 
 const wordings: Wordings = {
 	hero: {
-		heading1: 'Hacemos crecer tu start-up Web3 en ',
+		heading1: 'Validamos y hacemos crecer tu startup Web3 en ',
 		span: 'comunidad.',
-		text: 'Lanzamos el primer programa pre-acelerador de startups Web3 que pone una comunidad mínima viable al servicio de nuevos emprendimientos en el ecosistema.',
-		footer: {
-			text: 'Powered by',
-			alt: 'logo comunidad resiliente',
-		},
+		text: 'Obtené el acompañamiento, conocimiento y mentorias necesarias para acelerar tu emprendimiento sumandote a la nueva camada de nuestro programa incubador de 12 semanas.',
+		cta: 'Postulate ahora!',
 	},
 	speezard: {
-		heading2: '¿Por qué elegir Speezard para tu ',
-		span: 'start-up',
+		heading2: '¿Por qué ',
+		heading3: '3 razones para ',
+		span: 'Speezard',
+		span2: 'embarcar',
 		alt: 'imagen abstracta de un espiral de colores',
-		items: [
+		subtitle: 'Emprendedores "Early Stage" fallan por 3 razones principales.',
+		image: '',
+		why: [
 			{
 				id: 1,
-				heading5: 'Escuchamos tu necesidad',
-				text: 'Desde el inicio te ayudamos a darle forma a tu idea.',
+				heading5: 'No encontrar Product-Market fit',
+				text: 'Te ayudamos a encontrar tu mercado objetivo y a distribuir tu producto.',
 			},
 			{
 				id: 2,
-				heading5: 'Co-creamos en comunidad',
-				text: 'Ponemos a nuestra comunidad al servicio de tu proyecto.',
+				heading5: 'No poder levantar capital',
+				text: 'Lo resolvemos con la conexión con Angeles y VCs adecuados para cada proyecto.',
 			},
 			{
 				id: 3,
-				heading5: 'Te impulsamos a ir por más',
-				text: 'Te contactamos con potenciales inversores del ecosistema cripto.',
+				heading5: 'El equipo no es idoneo',
+				text: 'Contamos con un alto nivel de networking en el segmento web3, builders y calidad de mentores',
+			},
+		],
+		items: [
+			{
+				id: 1,
+				heading5: 'Comunidad Mínima Viable',
+				text: 'La principal causa de falla de la startups es no encontrar y posicionarse en un mercado objetivo. Nuestra comunidad te ayuda a validar tus hipótesis y a encontrar tu nicho!.',
+				image: '/embarcar/first.jpeg',
+				alt:'Comunidad Mínima Viable'
+			},
+			{
+				id: 2,
+				heading5: 'Conexiones Reales',
+				text: 'Speezard conecta a sus incubados con Inversores Angeles y Venture Capitals locales e internacionales para que puedan recibir el financiamiento que necesitan para escalar.',
+				image: '/embarcar/second.jpeg',
+				alt:'Conexiones Reales'
+			},
+			{
+				id: 3,
+				heading5: 'Entusiastas Web3',
+				text: 'Nuestro diferencial es brindar a los participantes del programa distintas especialidades como desarrollo, legales, marketing, contenido, diseño, producto y negocio con foco en web3.',
+				image: '/embarcar/third.jpeg',
+				alt:'Entusiastas Web3'
 			},
 		],
 	},
-	community: {
-		heading2: 'Co-construimos tu proyecto web3 en ',
-		span: 'comunidad.',
+	roadmap: {
+		heading2: 'del programa',
+		span: 'Roadmap ',
+		alt: 'roadmap del programa',
 		text: {
-			p1: 'Nuestro mayor diferencial es brindar a los proyectos que participen del programa de un entorno de entusiastas Web3 en especialidades como desarrollo, marketing, contenido, diseño, producto, negocio, entre otros.',
-			p2: 'Speezard surge de la comunidad Resiliente, que cuenta con cientos de personas profundamente involucradas con la filosofía de la descentralización y blockchain, y en Speezard, están al servicio de los proyectos.',
+			p1: 'En este programa te daremos las herramientas, recursos y orientación necesarios para iterar tu proyecto, con Pitch-days de prueba con la devolución de un jurado especializado.',
+			p2: 'Completa el form y nuestro equipo te va a contactar para coordinar una entrevista inicial.',
+		},
+		heading3: 'Listos para ',
+		span2: 'despegar',
+		cta: 'postulaciones abiertas',
+	},
+	community: {
+		heading2: 'Una comunidad con ',
+		span: 'resiliencia',
+		alt: 'Comunidad en movimiento',
+		text: {
+			p1: 'Speezard surge de la comunidad Resiliente, que cuenta con cientos de entusiastas, emprendedores y “Builders” profundamente involucradas con la filosofía de la descentralización, web3 y blockchain que dentro de Speezard, están al servicio de los proyectos para potenciar su recorrido en el proceso de incubación.',
 		},
 	},
 	proof_of_build: {
@@ -76,8 +112,8 @@ const wordings: Wordings = {
 		],
 	},
 	projects: {
-		heading2: 'que participaron del programa.',
-		span: ' proyectos ',
+		heading2: 'que nos apoyan.',
+		span: 'Partners ',
 		projects: [
 			{
 				id: 1,
@@ -189,58 +225,125 @@ const wordings: Wordings = {
 			},
 		],
 	},
-	stats: [
-		{
-			number: 7,
-			text: 'Start-ups',
-		},
-		{
-			number: 75,
-			text: 'Builders',
-		},
-		{
-			number: 18,
-			text: 'Mentores',
-		},
-		{
-			number: 126,
-			text: 'Contribuciones',
-		},
-	],
+	partners: {
+		heading2: 'que nos apoyan',
+		span: 'Partners ',
+		heading3: 'Proyectos que ya pasaron por speezard',
+		cta: 'Postulate ya!',
+		proyectos: [
+			{
+				id: 1,
+				src: 'vean',
+				alt: "Think & Dev",
+				web: 'https://openai.com/',
+			},
+			{
+				id: 2,
+				src: 'vean',
+				alt: "Talent Protocol",
+				web: 'https://www.freecodecamp.org/',
+			},
+			{
+				id: 3,
+				src: 'vean',
+				alt: "Ripio",
+				web: 'https://developer.mozilla.org/es/',
+			},
+			{
+				id: 4,
+				src: 'vean',
+				alt: "Emprear",
+				web: 'https://codepen.io/',
+			},
+			{
+				id: 5,
+				src: 'vean',
+				alt: "Emprear",
+				web: 'https://cryptozombies.io/',
+			},
+			{
+				id: 6,
+				src: 'vean',
+				alt: "Emprear",
+				web: 'https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js',
+			},
+		],
+		stat: [
+			{
+				number: 16,
+				text: 'Start-ups',
+			},
+			{
+				number: 42,
+				text: 'Emprendedores',
+			},
+			{
+				number: 18,
+				text: 'Mentores',
+			},
+			{
+				number: 24,
+				text: 'Desarrolladores',
+			},
+		],
+	},
 	testimonials: {
 		heading2: 'Testimonios',
 		testimonials: [
 			{
-				// Agregar foto de perfil en local
 				id: 1,
-				text: 'Molestie ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit amet. Faucibus interdum posuere lorem ipsum dolor adipiscing tristique risus nec feugiat in fermentum posuere urna. Neque laoreet suspendisse interdum consectetur libero mauris massa vitae tortor condimentum.',
+				text: '“Definitivamente LA comunidad. Todos los que son parte de speezard aportan y se interesan por los proyectos. No solo los mentores sino incluso los miembros te escriben, te dan feedback, te pasan contactos que te ayudan, y sin pedir nada a cambio. Son una gran familia.”',
 				person: {
-					name: 'Juan Pérez',
-					description: 'Persona 1',
+					name: '@BrunoArenzo',
+					img: 'bruno',
+					description: 'Abogado Tech  / Co-founder',
+					href: 'https://twitter.com/BrunoArenzo',
 				},
 			},
 			{
-				// Agregar foto de perfil en local
 				id: 2,
-				text: 'Molestie ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit amet. Faucibus interdum posuere lorem ipsum dolor adipiscing tristique risus nec feugiat in fermentum posuere urna. Neque laoreet suspendisse interdum consectetur libero mauris massa vitae tortor condimentum.',
+				text: '“Fue todo muy revelador. Conocerlxs irl, entender nuevas metodologías de trabajo, enfrentar nuevos desafíos, entre otras cosas, me flashearon un toque la estantería.”',
 				person: {
-					name: 'Lola Lolita',
-					description: 'Persona 2',
+					name: '@adbmez',
+					img: 'adb',
+					description: ' Co-founder',
+					href: 'https://twitter.com/adbmez',
 				},
 			},
 			{
-				// Agregar foto de perfil en local
 				id: 3,
-				text: 'Molestie ac feugiat sed lectus vestibulum mattis. Interdum posuere lorem ipsum dolor sit amet. Faucibus interdum posuere lorem ipsum dolor adipiscing tristique risus nec feugiat in fermentum posuere urna. Neque laoreet suspendisse interdum consectetur libero mauris massa vitae tortor condimentum.',
+				text: '“Speezard derivó en que me anote en el curso de PM de Coder para desarrollar otra solución (esta vez, web2) para pymes. Y no sólo eso, sino que las herramientas que me dio Speezard las estoy usando para trabajar sobre este nuevo proyecto.”',
 				person: {
-					name: 'Vitalik Buterin',
-					description: 'Persona 3',
+					name: '@titokosa',
+					img: 'tito',
+					description: 'Entusiasta Web3',
+					href: 'https://twitter.com/titokosa',
+				},
+			},
+			{
+				id: 4,
+				text: '“Lo que más me gustó del programa fue ayudarme a entender la forma en que se debe poner en marcha una startup, desde el principio, a nivel macro. Me ayudó a ordenar y priorizar ideas.”',
+				person: {
+					name: '@0xnico_',
+					img: 'nico',
+					description: 'Blockchain engineer / Co-founder',
+					href: 'https://twitter.com/0xnico_',
+				},
+			},
+			{
+				id: 5,
+				text: '“Gracias por el apoyo. Llegamos al final del camino de una gran experiencia. Crecimos y aprendimos mucho.”',
+				person: {
+					name: '@ancestral_alien',
+					img: 'alien',
+					description: 'Co-founder',
+					href: 'https://twitter.com/ancestral_alien',
 				},
 			},
 		],
 	},
 	mentors: {
-		heading2: 'que nos guían.',
+		heading2: 'que pasaron por Speezard',
 		span: 'mentores',
 		text: 'Los mentores son las personas especialistas en una materia que tienen el desafío de hacer crecer a los proyectos, resaltando sus puntos fuertes y  marcando las áreas de mejora para llevarlos a otro nivel.',
 		profiles: [
@@ -250,7 +353,7 @@ const wordings: Wordings = {
 				alt: 'imagen de perfil de resiliente',
 				heading6: 'Lucas Valeggiani',
 				description:
-					'Co-creador de la comunidad Resiliente y Speezard, Product & Growth - Crypto Mercado Pago',
+					'Co-Founder de Resiliente y Speezard 🦎 | Desarrollando nuevos negocios en fu.do',
 				links: [
 					{
 						id: 'twitter',
@@ -262,49 +365,48 @@ const wordings: Wordings = {
 			},
 			{
 				id: 2,
-				img: 'natyshi',
-				alt: 'imagen de perfil de natyshi',
-				heading6: 'NatyShi',
-				description:
-					'Emprendedora, tech fan, crypto DeFi researcher & content creator.',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter',
-						text: '@NatyShi_',
-						href: 'https://www.twitter.com/NatyShi_',
-					},
-				],
-			},
-			{
-				id: 3,
-				img: 'zeki',
-				alt: 'imagen de perfil de ezequiel rambla (zeki)',
-				heading6: 'Ezequiel Rambla',
-				description:
-					'Designer, writer, entrepreneur. Founder of @soulsofmelonbay. Web3 entertainment',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter',
-						text: '@EzequielRambla',
-						href: 'https://twitter.com/EzequielRambla',
-					},
-				],
-			},
-			{
-				id: 4,
-				img: 'fedelenci',
+				img: 'fedelen',
 				alt: 'imagen de perfil de Fede Lenci',
-				heading6: 'Fede Lenci',
+				heading6: 'Federico Lenci',
 				description:
-					'Comunicador Visual | Researcher crypto & start-ups | Co-founder @unibotz',
+					'Co-Founder de Resiliente y Speezard 🦎 | comunicación, marketing y diseño | Researcher crypto & start-ups',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
 						text: '@fede_lenci7',
 						href: 'https://www.twitter.com/fede_lenci7',
+					},
+				],
+			},
+			{
+				id: 3,
+				img: 'erika',
+				alt: 'imagen de perfil de Erika',
+				heading6: 'Erika',
+				description:
+					'Scrum Master en Speezard 🦎 | Project Manager | OKR Coach',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@ErikaYeah_',
+						href: 'https://twitter.com/ErikaYeah_',
+					},
+				],
+			},
+			{
+				id: 4,
+				img: 'ibliz',
+				alt: 'imagen de perfil de ibliz',
+				heading6: 'Tomas Lizer',
+				description: 'PM | PO | Entusiasta Crypto & Web3 | Speezard & Comunidad Resiliente 🦎',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@ibliz_eth',
+						href: 'https://twitter.com/ibliz_eth',
 					},
 				],
 			},
@@ -326,42 +428,41 @@ const wordings: Wordings = {
 			},
 			{
 				id: 6,
-				img: 'santiar23',
-				alt: 'imagen de perfil de santi',
-				heading6: 'Santi',
-				description: 'Crypto enthusiast. Web3 learner',
+				img: 'manulamedica',
+				alt: 'imagen de perfil de manu',
+				heading6: 'Manu Lamedica',
+				description: 'Co-Founder @GrouAgency🐙 | Advisor at Speezard 🦎',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@Santiar23',
-						href: 'https://www.twitter.com/santiar23',
+						text: '@manulamedica',
+						href: 'https://twitter.com/manulamedica',
 					},
 				],
 			},
 			{
 				id: 7,
-				img: 'santypk4',
-				alt: 'imagen de perfil de santypk4',
-				heading6: 'Santypk4',
-				description: 'CEO at Building Ideas and Software on the Road',
+				img: 'nati',
+				alt: 'imagen de perfil de Natalia Soledad Salinas',
+				heading6: 'Natalia Salinas',
+				description: 'Biz Dev Transfero | B2B | Ex Bitso | Ex Pomelo Fintech | Advisory PwC | emprendedora web 3.0',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@SantyPK4',
-						href: 'https://www.twitter.com/SantyPK4',
+						text: '@NatSalinasBXB',
+						href: 'https://twitter.com/NatSalinasBXB',
 					},
 				],
 			},
-
 			{
 				id: 8,
 				img: 'paulaarenzo',
 				alt: 'imagen de perfil de Paula Arenzo',
 				heading6: 'Paula Arenzo',
 				description:
-					'Abogada especializada en Tecnología. Crypto enthusiast. Co-founder de @CryptoCampoNet',
+					'Abogada especializada en Tecnología | Consultora tech | Crypto enthusiast | Co-founder de @CryptocampoNet 🌿',
 				links: [
 					{
 						id: 'twitter',
@@ -372,55 +473,39 @@ const wordings: Wordings = {
 				],
 			},
 			{
-				id: 10,
-				img: 'exeguerra',
-				alt: 'imagen de perfil de Exe Guerra',
-				heading6: 'Exe Guerra',
+				id: 9,
+				img: 'jossie',
+				alt: 'imagen de perfil de Jossie',
+				heading6: 'Josefina Anschütz',
 				description:
-					'Conductor del podcast Hablemos de Bitcoin, profesor en Proof of Integrity',
+					'CEO @futurefundco | Building @mokatoken | UX Writer 💻 | Embajadora @takenosapp | Community Builder @LaCryptaOficial',
 				links: [
 					{
 						id: 'twitter',
 						icon: 'twitter',
-						text: '@exeguerra_eth',
-						href: 'https://www.twitter.com/exeguerra_eth',
+						text: '@uxjossie',
+						href: 'https://twitter.com/uxjossie',
+					},
+				],
+			},
+			{
+				id: 10,
+				img: 'natyshi',
+				alt: 'imagen de perfil de Natyshi',
+				heading6: 'NatyShi',
+				description:
+					'Blockchain & Web3 School Owner @platzi | Web3 researcher & content creator | @W3Talk co-host | Token Engineering Jr',
+				links: [
+					{
+						id: 'twitter',
+						icon: 'twitter',
+						text: '@NatyShi_',
+						href: 'https://www.twitter.com/NatyShi_',
 					},
 				],
 			},
 			{
 				id: 11,
-				img: 'ayelaurencena',
-				alt: 'imagen de perfil de Aye Laurencena',
-				heading6: 'Aye Laurencena',
-				description: '',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter',
-						text: '@AyeLaurencena',
-						href: 'https://www.twitter.com/AyeLaurencena',
-					},
-				],
-			},
-			{
-				id: 12,
-				img: 'manulamedica',
-				alt: 'imagen de perfil de Manu Lamedica',
-				heading6: 'Manu Lamedica',
-				description:
-					'Creando @fungiverse_nft & @cryptodonas_ff, Co-Founder @groulabs',
-				links: [
-					{
-						id: 'twitter',
-						icon: 'twitter',
-						text: '@ManuLamedica',
-						href: 'https://www.twitter.com/manulamedica',
-					},
-				],
-			},
-
-			{
-				id: 13,
 				img: 'solangesoifer',
 				alt: 'imagen de perfil de Solange Soifer',
 				heading6: 'Solange Soifer',
@@ -436,6 +521,10 @@ const wordings: Wordings = {
 				],
 			},
 		],
+	},
+	movements: {
+		heading2: 'Comunidad en',
+		span: ' movimiento',
 	},
 }
 

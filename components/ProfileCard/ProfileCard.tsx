@@ -12,15 +12,31 @@ const ProfileCard = ({
 }: ProfileCardProps) => {
 	return (
 		<article className="profile-card">
-			<Image src={`/mentors/${img}.jpeg`} alt={alt} width={250} height={250} />
+			<Image
+				src={`/mentors/${img}.jpeg`}
+				alt={alt}
+				width={200}
+				height={200}
+				className='profile-card__images'
+			/>
 			<h6 className="profile-card__title">{heading6}</h6>
 			<div className="profile-card__social">
-				<Image src='/icons/twitter-color.svg' alt="" width={18} height={18} />
 				{links.map(link => (
-					<Link href={link.href} key={link.id}>
-						<a target={'_blank'}>
+					<Link
+						href={link.href}
+						key={link.id}
+						target={'_blank'}
+						className='button'
+					>
+						<Image
+							src='/icons/twitter-x.svg'
+							alt="X-twitter"
+							width={34}
+							height={56}
+						/>
+						<h4>
 							{link.text}
-						</a>
+						</h4>
 					</Link>
 				))}
 			</div>

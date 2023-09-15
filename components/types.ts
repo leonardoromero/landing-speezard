@@ -7,7 +7,9 @@ export type TestimonialCardProps = {
 	text: string
 	person: {
 		name: string
+		img: string
 		description: string
+		href: string
 	}
 }
 export type FooterLinkProps = Link
@@ -16,6 +18,7 @@ export type Wordings = {
 	navbar: Link[]
 	footer: {
 		logo: string
+		logo2: string
 		alt: string
 		text: string
 		links: {
@@ -26,6 +29,7 @@ export type Wordings = {
 		bottom: {
 			text: string
 			span: string
+			span2: string
 			social: Link[]
 		}
 	}

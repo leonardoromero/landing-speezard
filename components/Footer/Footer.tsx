@@ -5,6 +5,7 @@ import FooterLink from './FooterLink'
 const {
 	footer: {
 		logo,
+		logo2,
 		alt,
 		text,
 		links: { col1, col2, col3 },
@@ -17,7 +18,18 @@ const Footer = () => {
 		<section className="footer" id="footer">
 			<div className="footer__top">
 				<div className="footer__top-left">
-					<Image src={`/${logo}`} alt={alt} width={250} height={50} />
+					<Image
+						src={`/${logo}`}
+						alt={alt}
+						width={250}
+						height={50}
+					/>
+					<Image
+						src={`/${logo2}`}
+						alt={alt}
+						width={250}
+						height={50}
+					/>
 					<p>{text}</p>
 				</div>
 				<div className="footer__top-right">
@@ -39,31 +51,43 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="footer__bottom">
-				<p>
-					{bottom.text}
-					<span>
-						<Link href="https://bit.ly/TwitterResiliente">
-							<a target={'_blank'}>
-								{bottom.span}
-							</a>
-								
-						</Link>
-					</span>
-				</p>
 				<div className="footer__bottom-social">
 					{bottom.social.map(link => (
-						<Link href={link.href} key={link.id} rel="noreferrer">
-							<a target={'_blank'}>
-								<Image
-									src={`/icons/${link.icon}.svg`}
-									alt={`${link.icon} icon`}
-									width={40}
-									height={40}
-								/>
-							</a>
+						<Link
+							href={link.href}
+							key={link.id}
+							rel="noreferrer"
+							target={'_blank'}
+						>
+							<Image
+								src={`/icons/${link.icon}.svg`}
+								alt={`${link.icon} icon`}
+								width={40}
+								height={40}
+							/>
 						</Link>
 					))}
 				</div>
+				<p>
+					{bottom.text}
+					<Link
+						href="https://bit.ly/TwitterResiliente"
+						target={'_blank'}
+						className='footer__bottom-span2'
+					>
+						{bottom.span2}
+					</Link>
+					by
+					<span>
+						<Link
+							href="https://bit.ly/TwitterResiliente"
+							target={'_blank'}
+						>
+							{bottom.span}
+						</Link>
+					</span>
+				</p>
+				
 			</div>
 		</section>
 	)

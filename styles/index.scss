@@ -3,6 +3,7 @@
 @import '../components/CTALink/ctalink';
 @import '../components/ProjectCard/projectcard';
 @import '../components/ProfileCard/profilecard';
+@import '../components/Contact/contact';
 @import '../components/TestimonialCard/testimonial-card';
 @import '../components/Footer/footer';
 @import '../pages/sections/Hero/hero';
@@ -10,15 +11,17 @@
 @import '../pages/sections/Community/community';
 @import '../pages/sections/ProofOfBuild/proofofbuild';
 @import '../pages/sections/Projects/projects';
-@import '../pages/sections/Stats/stats';
+@import '../pages/sections/Partners/partners';
 @import '../pages/sections/Testimonials/testimonials';
 @import '../pages/sections/Mentors/mentors';
-@import '../pages/sections/Contact/contact';
+@import '../pages/sections/Roadmap/roadmap';
+@import '../pages/sections/Movements/movements';
 
 html,
 body {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 	background-color: $base;
 	color: white;
@@ -44,11 +47,67 @@ a {
 
 * {
 	box-sizing: border-box;
+	padding: 0;
+    margin: 0;
 }
 
 .app-wrapper {
-	max-width: 1440px;
+	max-width: 100vw;
 	margin: 0 auto;
+}
+
+.cta {
+	all: unset;
+	font-weight: bold;
+	background-color: $accent;
+	text-align: center;
+	color: $base;
+	padding: 2px 24px;
+	border-radius: 5px;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.2s ease-out;
+
+	@media (min-width: 768px) {
+		padding: 16px 32px;
+	}
+	@media (min-width: 900px) {
+		padding: 12px 24px;
+	}
+
+	&:hover {
+		filter: brightness(1.1);
+	}
+	&:active {
+		filter: brightness(1.1);
+	}
+	&--white {
+    background-color: $white;
+    color: $base;
+	}
+	@media only screen and (min-width: 320px) and (max-width: 767px) {
+		/* Estilos específicos para pantallas de tamaño medio (320px) */
+		width: 160px;
+		height: 32px;
+		font-size: 1.8rem;
+		border-radius: 50px;
+		border: 2px solid $base;
+	}
+}
+
+.close-modal {
+	position: absolute;
+	padding: 4px 4px;
+	border-radius: 0 0 10px 0;
+	font-size: 1em;
+	box-shadow :
+	0px 2px 3px #b5b5b5,
+	0px 0px 0px #ffffff;
+	color: $base;
+	border: none;
+	cursor: pointer;
+	z-index: 222;
 }
 
 @media (prefers-color-scheme: dark) {

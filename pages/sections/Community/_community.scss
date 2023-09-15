@@ -1,35 +1,47 @@
 .community {
 	width: 90%;
-	margin: 128px auto;
-
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-top: 64px;
+	display: flex;
+	flex-direction: row;
 	@media (min-width: 900px) {
 		display: flex;
 		flex-direction: row-reverse;
 		gap: 32px;
 		text-align: right;
-		padding: 64px 0;
+	}
+	@media only screen and (min-width: 320px) and (max-width: 767px) {
+		/* Estilos específicos para pantallas de tamaño medio (320px) */
+		padding-top: 32px;
 	}
 
 	&__content {
 		display: grid;
 		align-content: center;
-		justify-items: right;
-		text-align: right;
+		justify-items: center;
+		text-align: center;
 		@media (min-width: 900px) {
-			width: 50%;
+			width: 80%;
+			justify-items: left;
+			text-align: left;
 		}
 
 		&-title {
 			@extend .heading;
-			@extend .mobile-heading-2;
+			@extend .mobile-heading-3;
 			@media (min-width: 724px) {
 				font-size: 4.8rem;
 				line-height: 6.5rem;
 				margin-bottom: 16px;
 			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (320px) */
+				width: 100%;
+			}
 
 			span {
-				@extend .accent-word;
+				color: $orange;
 			}
 		}
 
@@ -37,19 +49,60 @@
 			@extend .paragraph;
 			@extend .mobile-paragraph-md;
 			margin-top: 24px;
-			width: 75%;
+			width: 90%;
 			@media (min-width: 724px) {
 				font-size: 1.8rem;
 				line-height: 2.8rem;
 			}
+			@media only screen and (min-width: 320px) and (max-width: 767px) {
+				/* Estilos específicos para pantallas de tamaño medio (320px) */
+				width: 100%;
+			}
 		}
 	}
 	&__img {
-		margin: 32px;
+		margin: 16px;
+		margin-bottom: 250px;
 		display: flex;
 		justify-content: center;
+		
 		@media (min-width: 900px) {
 			width: 50%;
 		}
+		.background {
+			position: absolute;
+		}
+		.girl {
+			position: absolute;
+			margin-top: 100px;
+			margin-right: 180px;
+			animation: floatingAnimation 3s ease-in-out infinite;
+		}
+		.element {
+			margin-top: 50px;
+			animation: floatingAnimation 3s ease-in-out infinite;
+		}
+		.guy {
+			position: absolute;
+			margin-top: 140px;
+			margin-left: 180px;
+			animation: floatingAnimation 3s ease-in-out infinite;
+		}
+		@media only screen and (min-width: 320px) and (max-width: 767px) {
+			/* Estilos específicos para pantallas de tamaño medio (320px) */
+			display: none;
+		}
+		@media (min-width: 768px) and (max-width: 1024px) {
+			/* Estilos específicos para tabletas en orientación vertical */
+			display: none;
+		}
+	}
+
+	&__middle {
+		width: 90%;
+	}
+	&__footer{
+		width: 100%;
+		background-color: #FFFFFF;
 	}
 }

@@ -1,14 +1,14 @@
 .testimonials {
 	width: 90%;
-	margin: 128px auto;
+	margin: 64px auto;
 	max-width: 1440px;
 	text-align: center;
 
 	&__title {
 		@extend .heading;
-		@extend .mobile-heading-2;
-		@extend .accent-word;
-		margin-bottom: 32px;
+		@extend .mobile-heading-3;
+		color: $accent;
+		margin-bottom: 64px;
 		@media (min-width: 724px) {
 			font-size: 4.8rem;
 			line-height: 6.5rem;

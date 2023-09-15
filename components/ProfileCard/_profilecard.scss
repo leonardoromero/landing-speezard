@@ -3,17 +3,21 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
+
+	&__images{
+		border-radius: 10px;
+	}
 
 	&__title {
 		text-align: center;
-		min-height: 60px;
+		min-height: 32px;
 		@extend .heading;
 		@extend .mobile-heading-5;
 		margin: 16px 0 0;
 		@media (min-width: 724px) {
-			font-weight: 700;
+			font-weight: 600;
 			font-size: 2rem;
 			line-height: 3rem;
 		}
@@ -35,9 +39,20 @@
 		@extend .mobile-paragraph-sm;
 		font-weight: 500;
 		display: flex;
+		justify-content: center;
 		align-items: center;
-		gap: 8px;
-		margin: 12px 0 18px;
+	}
+
+	.button {
+		font-weight: 100;
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		cursor: pointer;
+		text-decoration: none;
+		transform: translateX(-10px);
 	}
 }
 

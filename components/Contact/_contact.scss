@@ -1,0 +1,21 @@
+.contact {
+	width: 90%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 1000;
+	&-container {
+		position: fixed;
+		top: 0;
+		left: 0;
+		transform: translate(50%, 18%);
+		width: 50vw;
+		height: 82vh;
+		background-color: white;
+		@media only screen and (min-width: 320px) and (max-width: 767px) {
+			/* Estilos específicos para pantallas de tamaño medio (375px) */
+			width: 90vw;
+			transform: translate(6%, 14%);
+		}
+	}
+}
