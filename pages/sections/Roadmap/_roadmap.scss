@@ -127,6 +127,10 @@
 			/* Estilos específicos para pantallas de tamaño medio (375px) */
 			height: 460px;
 		}
+		@media only screen and (min-width: 900px) and (max-width: 1330px) {
+			/* Estilos específicos para pantallas de tamaño medio (375px) */
+			height: 300px;
+		}
 		&__left {
 			display: grid;
 			align-content: center;
@@ -146,6 +150,11 @@
 				justify-items: center;
 				text-align: center;
 				margin-top: 40px;
+			}
+			@media only screen and (min-width: 900px) and (max-width: 1330px) {
+				/* Estilos específicos para pantallas de tamaño medio (375px) */
+				margin-top: 60px;
+				width: 70%;
 			}
 			&-title {
 				@extend .heading;

@@ -16,8 +16,8 @@ const Home: NextPage = () => {
 	return (
 		<div className="app-wrapper">
 			<NextSeo
-				title="Speezard 🦎 Pre-incubadora Web3.0"
-				description="Speezard es una pre-incubadora de start-ups web3 en LATAM que pone una comunidad mínima viable al servicio del ecosistema."
+				title="Speezard | Incubadora Web 3"
+				description="Speezard es una incubadora latinoamericana, en la cual validamos y hacemos crecer tu startup Web3 en comunidad."
 				canonical="https://www.speezard.io/"
 			/>
 			<Navbar />

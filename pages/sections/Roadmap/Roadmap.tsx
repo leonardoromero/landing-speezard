@@ -80,7 +80,7 @@ const Roadmap = () => {
 					<Image
 						src="/vectorsV1.5/roadmap-phone.svg"
 						width={300}
-						height={1400}
+						height={1200}
 						alt={alt}
 					/>
 				) : (

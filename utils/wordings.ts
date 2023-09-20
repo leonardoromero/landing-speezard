@@ -344,7 +344,7 @@ const wordings: Wordings = {
 	},
 	mentors: {
 		heading2: 'que pasaron por Speezard',
-		span: 'mentores',
+		span: 'Mentores',
 		text: 'Los mentores son las personas especialistas en una materia que tienen el desafío de hacer crecer a los proyectos, resaltando sus puntos fuertes y  marcando las áreas de mejora para llevarlos a otro nivel.',
 		profiles: [
 			{
@@ -478,7 +478,7 @@ const wordings: Wordings = {
 				alt: 'imagen de perfil de Jossie',
 				heading6: 'Josefina Anschütz',
 				description:
-					'CEO @futurefundco | Building @mokatoken | UX Writer 💻 | Embajadora @takenosapp | Community Builder @LaCryptaOficial',
+					'Founder @futurefund | UX Writer 💻 | Embajadora @takenosapp | Community Builder @LaCryptaOk',
 				links: [
 					{
 						id: 'twitter',
