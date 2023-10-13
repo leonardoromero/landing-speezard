@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
+import Script from 'next/script'
 
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -20,6 +21,14 @@ const Home: NextPage = () => {
 				description="Speezard es una incubadora latinoamericana, en la cual validamos y hacemos crecer tu startup Web3 en comunidad."
 				canonical="https://www.speezard.io/"
 			/>
+			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-G6V47G0V0D"></Script>
+			<Script id="google-analytics">
+				{`window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-G6V47G0V0D');
+				`}
+			</Script>
 			<Navbar />
 			<Hero />
 			<Speezard />
