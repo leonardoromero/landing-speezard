@@ -478,7 +478,7 @@ const wordings: Wordings = {
 				alt: 'imagen de perfil de Jossie',
 				heading6: 'Josefina Anschütz',
 				description:
-					'Founder @futurefund | UX Writer 💻 | Embajadora @takenosapp | Community Builder @LaCryptaOk',
+					'Founder @futurefund | UX Writer',
 				links: [
 					{
 						id: 'twitter',

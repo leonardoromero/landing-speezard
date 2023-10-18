@@ -110,7 +110,7 @@ const Roadmap = () => {
 						/>
 					</div>
 					<h2 className='roadmap__bottom__left-title'>
-						{heading3}
+						¿{heading3}
 						<span>{span2}</span>?
 					</h2>
 					<h3 className='roadmap__bottom__left-text'>
@@ -118,10 +118,9 @@ const Roadmap = () => {
 					</h3>
 				</div>
 				<div className='roadmap__bottom__right'>
-					<Contact ctaText="Postulate ahora!" buttonColor="$base" />
+					<Contact ctaText="¡Postulate ahora!" buttonColor="$base" />
 				</div>
 			</div>
-			
 		</section>
 	)
 }
