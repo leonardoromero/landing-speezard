@@ -20,6 +20,19 @@ const Home: NextPage = () => {
 				title="Speezard | Incubadora Web 3"
 				description="Speezard es una incubadora latinoamericana, en la cual validamos y hacemos crecer tu startup Web3 en comunidad."
 				canonical="https://www.speezard.io/"
+				openGraph={{
+					url: 'https://www.speezard.io/',
+					title: 'Speezard | Incubadora Web 3',
+					description: 'Speezard es una incubadora latinoamericana, en la cual validamos y hacemos crecer tu startup Web3 en comunidad.',
+					images: [
+						{
+							url: 'https://iili.io/JfJitte.png',
+							width: 200,
+							height: 50,
+							alt: 'Speezard logo',
+						},
+					],
+				}}
 			/>
 			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-G6V47G0V0D"></Script>
 			<Script id="google-analytics">

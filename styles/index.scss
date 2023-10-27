@@ -67,7 +67,7 @@ a {
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
-	transition: all 0.2s ease-out;
+	transition: all 0.2s ease-in-out;
 
 	@media (min-width: 768px) {
 		padding: 16px 32px;
